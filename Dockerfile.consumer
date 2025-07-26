@@ -1,0 +1,14 @@
+# 🔹 Temel imaj (Python 3 içeren bir şey seçiyoruz)
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# 🔹 Gerekli bağımlılıkları yükle
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 🔹 Script'i kopyala
+COPY kafka_consumers/ ./kafka_consumers/
+
+CMD ["python", "kafka_consumers/kafka_to_redis_postgres.py"]

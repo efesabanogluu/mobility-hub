@@ -1,7 +1,7 @@
 from pyflink.datastream import StreamExecutionEnvironment
 from pyflink.datastream.window import TumblingProcessingTimeWindows
 from pyflink.common import Types, Time
-from pyflink.datastream.connectors.kafka import FlinkKafkaConsumer
+from pyflink.datastream.connectors.kafka import FlinkKafkaConsumer, FlinkKafkaProducer
 from pyflink.common.serialization import SimpleStringSchema
 import helpers
 
@@ -42,10 +42,13 @@ def main():
         .reduce(helpers.AggregateMetrics()) \
         .map(helpers.format_driver, output_type=Types.STRING())
 
-    output_path = "/opt/output/driver_metrics/driver_metrics.json"
-    write_fn = helpers.write_json_to_file(output_path)
+    producer = FlinkKafkaProducer(
+        topic='aggregated.driver',
+        serialization_schema=SimpleStringSchema(),
+        producer_config={'bootstrap.servers': 'kafka:29092'}
+    )
 
-    aggregated.map(lambda val: write_fn(val))
+    aggregated.add_sink(producer)
 
     env.execute("Driver Metrics Aggregation")
 

@@ -62,11 +62,36 @@ services:
     command: taskmanager
     environment:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
+      - "FLINK_PROPERTIES=taskmanager.numberOfTaskSlots: 5"
     volumes:
       - ./jflink_jobsobs:/opt/flink/jobs
       - ./data:/opt/data
     networks:
       - kafka-net
+  
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: mobility
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - kafka-net
+
+  kafka_consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile.consumer
+    depends_on:
+      - kafka
+      - redis
+      - postgres
+    networks:
+      - kafka-net
+    restart: always
+
 
 networks:
   kafka-net:

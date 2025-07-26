@@ -4,7 +4,6 @@ from pyflink.datastream.connectors.kafka import FlinkKafkaConsumer, FlinkKafkaPr
 from pyflink.common.typeinfo import Types
 import pandas as pd
 import json
-import helpers
 
 # === Read enrichment data ===
 driver_df = pd.read_parquet("/opt/data/drivers.parquet")
@@ -22,9 +21,9 @@ def enrich_and_split(event_json):
         h3_region = str(event.get("start_location_id", "unknown"))
 
         common_metrics = {
-            "duration_min": helpers.safe_float(event.get("duration_min")),
-            "distance_km": helpers.safe_float(event.get("distance_km")),
-            "price": helpers.safe_float(event.get("price"))
+            "duration_min": float(event.get("duration_min", 0) or 0),
+            "distance_km": float(event.get("distance_km", 0) or 0),
+            "price": float(event.get("price", 0) or 0)
         }
 
         enriched_events.append(("driver", json.dumps({ "driver_id": driver_id, **common_metrics })))
@@ -46,14 +45,14 @@ def main():
 
     kafka_props = {
         'bootstrap.servers': 'kafka:29092',
-        'group.id': 'flink-preprocessinge-{uuid.uuid4()}',
+        'group.id': 'flink-preprocessing',
         'auto.offset.reset': 'earliest'
     }
 
     consumer = FlinkKafkaConsumer(
         topics='trips_stream',
         deserialization_schema=SimpleStringSchema(),
-        properties=kafka_props 
+        properties=kafka_props
     )
 
     stream = env.add_source(consumer)

@@ -1,9 +1,10 @@
 from pyflink.datastream import StreamExecutionEnvironment
 from pyflink.datastream.window import TumblingProcessingTimeWindows
 from pyflink.common import Types, Time
-from pyflink.datastream.connectors.kafka import FlinkKafkaConsumer
+from pyflink.datastream.connectors.kafka import FlinkKafkaConsumer, FlinkKafkaProducer
 from pyflink.common.serialization import SimpleStringSchema
 import helpers
+
 
 def main():
     print("Vehicle Type Metrics Job Started")
@@ -45,12 +46,13 @@ def main():
         .map(helpers.format_vehicle_type, output_type=Types.STRING())
     print("Vehicle Type Metrics 3")
 
-    output_path = "/opt/output/vehicle_type_metrics/vehicle_type_metrics.json"
-    write_fn = helpers.write_json_to_file(output_path)
-    print("Vehicle Type Metrics 4")
+    producer = FlinkKafkaProducer(
+        topic='aggregated.vehicle_type',
+        serialization_schema=SimpleStringSchema(),
+        producer_config={'bootstrap.servers': 'kafka:29092'}
+    )
 
-    aggregated.map(lambda val: write_fn(val))
-    print("Vehicle Type Metrics 5")
+    aggregated.add_sink(producer)
 
     env.execute("Vehicle Type Metrics Aggregation")
 

@@ -41,7 +41,7 @@ def enrich_and_split(event_json):
 def main():
     print("Preprocessing Flink job started")
     env = StreamExecutionEnvironment.get_execution_environment()
-    env.set_parallelism(1)
+    env.set_parallelism(3)
 
     kafka_props = {
         'bootstrap.servers': 'kafka:29092',

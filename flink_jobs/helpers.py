@@ -2,8 +2,6 @@ import json
 from pyflink.common import Row
 from pyflink.datastream.functions import ReduceFunction
 from redis import Redis
-import os
-import uuid
 
 # === Redis bağlantısı ===
 redis_client = Redis(host="redis", port=6379, db=0)

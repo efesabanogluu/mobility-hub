@@ -9,12 +9,12 @@ import helpers
 def main():
     print("Vehicle Type Metrics Job Started")
     env = StreamExecutionEnvironment.get_execution_environment()
-    env.set_parallelism(1)
+    env.set_parallelism(3)
     env.enable_checkpointing(5000)
 
     kafka_props = {
         'bootstrap.servers': 'kafka:29092',
-        'group.id': 'flink-vehicle-typee-{uuid.uuid4()}',
+        'group.id': 'flink-vehicle-type',
         'auto.offset.reset': 'earliest'
     }
 
@@ -25,7 +25,6 @@ def main():
     )
 
     stream = env.add_source(consumer)
-    print("Vehicle Type Metrics 1")
 
     enriched = stream.map(
         lambda raw: helpers.parse_enriched_json(raw, "vehicle_type"),
@@ -37,14 +36,12 @@ def main():
             Types.FLOAT()
         ])
     )
-    print("Vehicle Type Metrics 2")
 
     aggregated = enriched \
         .key_by(lambda x: x[0]) \
         .window(TumblingProcessingTimeWindows.of(Time.seconds(10))) \
         .reduce(helpers.AggregateMetrics()) \
         .map(helpers.format_vehicle_type, output_type=Types.STRING())
-    print("Vehicle Type Metrics 3")
 
     producer = FlinkKafkaProducer(
         topic='aggregated.vehicle_type',

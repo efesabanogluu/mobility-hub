@@ -8,12 +8,12 @@ import helpers
 def main():
     print("H3 Metrics Job Started")
     env = StreamExecutionEnvironment.get_execution_environment()
-    env.set_parallelism(1)
+    env.set_parallelism(3)
     env.enable_checkpointing(5000)
 
     kafka_props = {
         'bootstrap.servers': 'kafka:29092',
-        'group.id': 'flink-h3-metricse-{uuid.uuid4()}',
+        'group.id': 'flink-h3-metrics',
         'auto.offset.reset': 'earliest'
     }
 

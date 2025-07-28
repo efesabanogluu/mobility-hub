@@ -64,24 +64,25 @@ mobility-hub/
 ## ⚙️ Setup & Run
 
 ```bash
-# 1. Start all services
-docker compose up -d --build
-
-# 2. Wait for Kafka and Flink to be ready (approx. 30 seconds)
-sleep 30 # Ensures services are up before topic creation
-
-# 3. Create Kafka topics
-./create_topics.sh
-
-# 👉 Run this in a separate terminal
-# 4. Create and activate a virtual environment
-# Start streaming trip events into Kafka (runs indefinitely)
+# 1. Create and activate a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r ingestion/requirements.txt
+
+# 2. Start all services
+docker compose up -d --build
+
+# 3. Wait for Kafka and Flink to be ready (approx. 30 seconds)
+sleep 30 # Ensures services are up before topic creation
+
+# 4. Create Kafka topics
+./create_topics.sh
+
+# 👉 Run this in a separate terminal
+# 5. Start streaming trip events into Kafka (runs indefinitely)
 python3 ingestion/producer.py
 
-# 5. Submit Flink jobs
+# 6. Submit Flink jobs
 ./submit_all_jobs.sh
 ```
 

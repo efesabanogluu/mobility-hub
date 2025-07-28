@@ -1,0 +1,72 @@
+{
+  "h3:9": {
+    "trip_count": 1058,
+    "total_distance": 2671.6900008916855,
+    "total_revenue": 16549.689987182617,
+    "avg_duration": 11.999839323905556,
+    "h3_region": "9"
+  },
+  "h3:1": {
+    "trip_count": 1085,
+    "total_distance": 2763.980005800724,
+    "total_revenue": 17240.0699968338,
+    "avg_duration": 11.912064515610444,
+    "h3_region": "1"
+  },
+  "h3:10": {
+    "trip_count": 1081,
+    "total_distance": 2729.5800003409386,
+    "total_revenue": 17174.0300283432,
+    "avg_duration": 12.076133205094457,
+    "h3_region": "10"
+  },
+  "h3:4": {
+    "trip_count": 1072,
+    "total_distance": 2697.6499994397163,
+    "total_revenue": 16684.219999313354,
+    "avg_duration": 12.012733207042537,
+    "h3_region": "4"
+  },
+  "h3:2": {
+    "trip_count": 1018,
+    "total_distance": 2594.679997742176,
+    "total_revenue": 16197.72998380661,
+    "avg_duration": 12.028555987157615,
+    "h3_region": "2"
+  },
+  "h3:8": {
+    "trip_count": 1128,
+    "total_distance": 2831.549999177456,
+    "total_revenue": 17616.040021896362,
+    "avg_duration": 11.742402493953705,
+    "h3_region": "8"
+  },
+  "h3:6": {
+    "trip_count": 1007,
+    "total_distance": 2520.079999446869,
+    "total_revenue": 15221.730018138885,
+    "avg_duration": 12.155998030627496,
+    "h3_region": "6"
+  },
+  "h3:7": {
+    "trip_count": 1070,
+    "total_distance": 2710.579998552799,
+    "total_revenue": 16789.209993362427,
+    "avg_duration": 11.91485981072221,
+    "h3_region": "7"
+  },
+  "h3:3": {
+    "trip_count": 1047,
+    "total_distance": 2637.000003039837,
+    "total_revenue": 16219.239974021912,
+    "avg_duration": 12.066915000407265,
+    "h3_region": "3"
+  },
+  "h3:5": {
+    "trip_count": 1071,
+    "total_distance": 2713.980000138283,
+    "total_revenue": 16872.759994506836,
+    "avg_duration": 11.897096164642818,
+    "h3_region": "5"
+  }
+}

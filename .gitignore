@@ -1,0 +1,68 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+ENV/
+env/
+
+# macOS artifacts
+.DS_Store
+
+# VSCode project settings
+.vscode/
+.history/
+
+# Jupyter notebook cache
+.ipynb_checkpoints/
+
+# Log dosyaları & çıktı dump'ları
+*.log
+*.out
+*.err
+logs/
+
+# Build artifacts
+dist/
+build/
+
+# Docker artifacts (build cache, override files)
+docker-compose.override.yml
+**/.dockerignore
+**/Dockerfile~
+
+# Kafka/Redis/Postgres çalışma zamanı dosyaları (örnek: volume mount yapılırsa)
+data/kafka-logs/
+data/zookeeper/
+data/redis/
+data/postgres/
+data/__state/
+data/.state/
+data/.checkpoints/
+
+# Kafka offset state, Flink checkpoint local state
+.checkpoints/
+__state__/
+
+# NOT IGNORING actual sample parquet files
+!data/drivers.parquet
+!data/passengers.parquet
+!data/trips.parquet
+
+# Flink pycache ve build artıkları
+flink_jobs/__pycache__/
+flink_jobs/*.class
+
+# Kafka topic setup log
+create_topics.sh.log
+
+# PyCharm / IDE klasörleri
+.idea/

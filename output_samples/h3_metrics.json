@@ -1,0 +1,72 @@
+[
+  {
+    "h3_region": "6",
+    "trip_count": 921,
+    "avg_duration": 12.169305121600951,
+    "total_distance": 2302.670000076294,
+    "total_revenue": 13932.830015659332
+  },
+  {
+    "h3_region": "5",
+    "trip_count": 992,
+    "avg_duration": 11.93540322035551,
+    "total_distance": 2515.530000925064,
+    "total_revenue": 15561.329995155334
+  },
+  {
+    "h3_region": "1",
+    "trip_count": 1019,
+    "avg_duration": 11.892453386224403,
+    "total_distance": 2610.500005185604,
+    "total_revenue": 16288.399996757507
+  },
+  {
+    "h3_region": "2",
+    "trip_count": 941,
+    "avg_duration": 12.044527095385236,
+    "total_distance": 2396.5599979758263,
+    "total_revenue": 15036.109978675842
+  },
+  {
+    "h3_region": "7",
+    "trip_count": 988,
+    "avg_duration": 11.892844121224485,
+    "total_distance": 2499.75999969244,
+    "total_revenue": 15547.009990692139
+  },
+  {
+    "h3_region": "3",
+    "trip_count": 953,
+    "avg_duration": 12.090535155623558,
+    "total_distance": 2396.09000313282,
+    "total_revenue": 14687.849973678589
+  },
+  {
+    "h3_region": "4",
+    "trip_count": 986,
+    "avg_duration": 11.996521294237876,
+    "total_distance": 2480.589999139309,
+    "total_revenue": 15393.250002861023
+  },
+  {
+    "h3_region": "9",
+    "trip_count": 969,
+    "avg_duration": 12.026222915718307,
+    "total_distance": 2448.9100021123886,
+    "total_revenue": 15153.779984474182
+  },
+  {
+    "h3_region": "10",
+    "trip_count": 1010,
+    "avg_duration": 12.087584153496392,
+    "total_distance": 2532.420001208782,
+    "total_revenue": 16058.370029449463
+  },
+  {
+    "h3_region": "8",
+    "trip_count": 1043,
+    "avg_duration": 11.75146693579874,
+    "total_distance": 2612.0499995350838,
+    "total_revenue": 16334.820016860962
+  }
+]

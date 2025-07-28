@@ -1,0 +1,3502 @@
+{
+  "driver:D0174": {
+    "trip_count": 21,
+    "total_distance": 45.5799999833107,
+    "total_revenue": 318.1200017929077,
+    "avg_duration": 11.191428638639904,
+    "driver_id": "D0174"
+  },
+  "driver:D0381": {
+    "trip_count": 27,
+    "total_distance": 70.08999943733215,
+    "total_revenue": 443.789999961853,
+    "avg_duration": 10.972962829801771,
+    "driver_id": "D0381"
+  },
+  "driver:D0162": {
+    "trip_count": 26,
+    "total_distance": 60.099999606609344,
+    "total_revenue": 373.89999771118164,
+    "avg_duration": 11.750384624187763,
+    "driver_id": "D0162"
+  },
+  "driver:D0163": {
+    "trip_count": 25,
+    "total_distance": 68.35999989509583,
+    "total_revenue": 405.35999965667725,
+    "avg_duration": 11.803999919891357,
+    "driver_id": "D0163"
+  },
+  "driver:D0412": {
+    "trip_count": 14,
+    "total_distance": 36.35000014305115,
+    "total_revenue": 223.4700002670288,
+    "avg_duration": 13.286428689956665,
+    "driver_id": "D0412"
+  },
+  "driver:D0472": {
+    "trip_count": 12,
+    "total_distance": 30.880000114440918,
+    "total_revenue": 198.03999710083008,
+    "avg_duration": 11.889999945958456,
+    "driver_id": "D0472"
+  },
+  "driver:D0313": {
+    "trip_count": 21,
+    "total_distance": 49.14999985694885,
+    "total_revenue": 311.4700002670288,
+    "avg_duration": 11.739523728688559,
+    "driver_id": "D0313"
+  },
+  "driver:D0102": {
+    "trip_count": 27,
+    "total_distance": 67.22000002861023,
+    "total_revenue": 432.4099950790405,
+    "avg_duration": 11.93444436567801,
+    "driver_id": "D0102"
+  },
+  "driver:D0269": {
+    "trip_count": 21,
+    "total_distance": 57.63999980688095,
+    "total_revenue": 357.1699981689453,
+    "avg_duration": 12.660476185026623,
+    "driver_id": "D0269"
+  },
+  "driver:D0436": {
+    "trip_count": 30,
+    "total_distance": 74.42999947071075,
+    "total_revenue": 461.52999782562256,
+    "avg_duration": 12.130999930699666,
+    "driver_id": "D0436"
+  },
+  "driver:D0372": {
+    "trip_count": 14,
+    "total_distance": 35.679999589920044,
+    "total_revenue": 221.82999801635742,
+    "avg_duration": 13.668571404048375,
+    "driver_id": "D0372"
+  },
+  "driver:D0036": {
+    "trip_count": 28,
+    "total_distance": 66.0399996638298,
+    "total_revenue": 401.6199998855591,
+    "avg_duration": 11.341785703386579,
+    "driver_id": "D0036"
+  },
+  "driver:D0109": {
+    "trip_count": 24,
+    "total_distance": 63.39000016450882,
+    "total_revenue": 377.46999645233154,
+    "avg_duration": 11.843333343664805,
+    "driver_id": "D0109"
+  },
+  "driver:D0453": {
+    "trip_count": 16,
+    "total_distance": 42.21999967098236,
+    "total_revenue": 243.54999923706055,
+    "avg_duration": 11.530000030994415,
+    "driver_id": "D0453"
+  },
+  "driver:D0422": {
+    "trip_count": 19,
+    "total_distance": 45.85000002384186,
+    "total_revenue": 297.0,
+    "avg_duration": 12.232631633156224,
+    "driver_id": "D0422"
+  },
+  "driver:D0076": {
+    "trip_count": 20,
+    "total_distance": 49.980000138282776,
+    "total_revenue": 310.37000274658203,
+    "avg_duration": 11.161000037193299,
+    "driver_id": "D0076"
+  },
+  "driver:D0066": {
+    "trip_count": 15,
+    "total_distance": 32.889999747276306,
+    "total_revenue": 225.1200008392334,
+    "avg_duration": 13.333333206176757,
+    "driver_id": "D0066"
+  },
+  "driver:D0215": {
+    "trip_count": 26,
+    "total_distance": 62.0200001001358,
+    "total_revenue": 400.57999992370605,
+    "avg_duration": 12.645384495074932,
+    "driver_id": "D0215"
+  },
+  "driver:D0057": {
+    "trip_count": 27,
+    "total_distance": 65.85000032186508,
+    "total_revenue": 440.67999839782715,
+    "avg_duration": 11.531111143253467,
+    "driver_id": "D0057"
+  },
+  "driver:D0095": {
+    "trip_count": 23,
+    "total_distance": 56.129999458789825,
+    "total_revenue": 333.47000312805176,
+    "avg_duration": 10.890000053074047,
+    "driver_id": "D0095"
+  },
+  "driver:D0279": {
+    "trip_count": 21,
+    "total_distance": 46.390000104904175,
+    "total_revenue": 300.4499969482422,
+    "avg_duration": 12.066666671207972,
+    "driver_id": "D0279"
+  },
+  "driver:D0394": {
+    "trip_count": 16,
+    "total_distance": 38.10000026226044,
+    "total_revenue": 237.92999649047852,
+    "avg_duration": 12.66874985396862,
+    "driver_id": "D0394"
+  },
+  "driver:D0071": {
+    "trip_count": 20,
+    "total_distance": 52.78999972343445,
+    "total_revenue": 317.4499988555908,
+    "avg_duration": 12.934999942779541,
+    "driver_id": "D0071"
+  },
+  "driver:D0177": {
+    "trip_count": 19,
+    "total_distance": 52.739999890327454,
+    "total_revenue": 299.8500003814697,
+    "avg_duration": 11.370526263588353,
+    "driver_id": "D0177"
+  },
+  "driver:D0348": {
+    "trip_count": 24,
+    "total_distance": 63.4199994802475,
+    "total_revenue": 389.89000034332275,
+    "avg_duration": 12.549166560173035,
+    "driver_id": "D0348"
+  },
+  "driver:D0131": {
+    "trip_count": 18,
+    "total_distance": 46.58999979496002,
+    "total_revenue": 272.47000217437744,
+    "avg_duration": 11.860555542839897,
+    "driver_id": "D0131"
+  },
+  "driver:D0044": {
+    "trip_count": 24,
+    "total_distance": 64.07999908924103,
+    "total_revenue": 384.830002784729,
+    "avg_duration": 13.73333336909612,
+    "driver_id": "D0044"
+  },
+  "driver:D0178": {
+    "trip_count": 28,
+    "total_distance": 73.32000017166138,
+    "total_revenue": 459.0300006866455,
+    "avg_duration": 11.90071417604174,
+    "driver_id": "D0178"
+  },
+  "driver:D0010": {
+    "trip_count": 21,
+    "total_distance": 47.05999994277954,
+    "total_revenue": 315.2799997329712,
+    "avg_duration": 12.867142836252848,
+    "driver_id": "D0010"
+  },
+  "driver:D0328": {
+    "trip_count": 17,
+    "total_distance": 41.39000028371811,
+    "total_revenue": 264.49999809265137,
+    "avg_duration": 11.060588135438806,
+    "driver_id": "D0328"
+  },
+  "driver:D0250": {
+    "trip_count": 22,
+    "total_distance": 52.71999979019165,
+    "total_revenue": 329.2800016403198,
+    "avg_duration": 11.078636353666132,
+    "driver_id": "D0250"
+  },
+  "driver:D0048": {
+    "trip_count": 21,
+    "total_distance": 51.110000133514404,
+    "total_revenue": 325.1800012588501,
+    "avg_duration": 12.295238176981607,
+    "driver_id": "D0048"
+  },
+  "driver:D0362": {
+    "trip_count": 20,
+    "total_distance": 55.730000257492065,
+    "total_revenue": 321.6899995803833,
+    "avg_duration": 13.628499937057494,
+    "driver_id": "D0362"
+  },
+  "driver:D0160": {
+    "trip_count": 24,
+    "total_distance": 56.64999985694885,
+    "total_revenue": 349.41000270843506,
+    "avg_duration": 11.868333220481873,
+    "driver_id": "D0160"
+  },
+  "driver:D0231": {
+    "trip_count": 18,
+    "total_distance": 43.93999993801117,
+    "total_revenue": 261.39999866485596,
+    "avg_duration": 10.993888881471422,
+    "driver_id": "D0231"
+  },
+  "driver:D0301": {
+    "trip_count": 33,
+    "total_distance": 84.81000030040741,
+    "total_revenue": 516.4599990844727,
+    "avg_duration": 12.219696969696969,
+    "driver_id": "D0301"
+  },
+  "driver:D0440": {
+    "trip_count": 28,
+    "total_distance": 66.36000001430511,
+    "total_revenue": 413.7799997329712,
+    "avg_duration": 12.52142858505249,
+    "driver_id": "D0440"
+  },
+  "driver:D0482": {
+    "trip_count": 23,
+    "total_distance": 62.700000166893005,
+    "total_revenue": 376.47000217437744,
+    "avg_duration": 12.459565224854842,
+    "driver_id": "D0482"
+  },
+  "driver:D0119": {
+    "trip_count": 17,
+    "total_distance": 49.78000009059906,
+    "total_revenue": 296.12000274658203,
+    "avg_duration": 12.780588178073659,
+    "driver_id": "D0119"
+  },
+  "driver:D0283": {
+    "trip_count": 18,
+    "total_distance": 42.33999991416931,
+    "total_revenue": 262.4900007247925,
+    "avg_duration": 12.631666713290745,
+    "driver_id": "D0283"
+  },
+  "driver:D0345": {
+    "trip_count": 20,
+    "total_distance": 45.439999997615814,
+    "total_revenue": 289.1399965286255,
+    "avg_duration": 12.033000016212464,
+    "driver_id": "D0345"
+  },
+  "driver:D0337": {
+    "trip_count": 23,
+    "total_distance": 52.37000012397766,
+    "total_revenue": 395.7899980545044,
+    "avg_duration": 11.138695675393809,
+    "driver_id": "D0337"
+  },
+  "driver:D0222": {
+    "trip_count": 17,
+    "total_distance": 39.62000024318695,
+    "total_revenue": 258.01000213623047,
+    "avg_duration": 11.457647071165198,
+    "driver_id": "D0222"
+  },
+  "driver:D0444": {
+    "trip_count": 17,
+    "total_distance": 44.829999804496765,
+    "total_revenue": 267.3999996185303,
+    "avg_duration": 13.16764710931217,
+    "driver_id": "D0444"
+  },
+  "driver:D0352": {
+    "trip_count": 34,
+    "total_distance": 91.84000039100647,
+    "total_revenue": 535.7400026321411,
+    "avg_duration": 12.177941182080437,
+    "driver_id": "D0352"
+  },
+  "driver:D0051": {
+    "trip_count": 20,
+    "total_distance": 52.82000005245209,
+    "total_revenue": 311.85999870300293,
+    "avg_duration": 12.51750007867813,
+    "driver_id": "D0051"
+  },
+  "driver:D0061": {
+    "trip_count": 22,
+    "total_distance": 52.80999958515167,
+    "total_revenue": 328.60000228881836,
+    "avg_duration": 12.960909193212336,
+    "driver_id": "D0061"
+  },
+  "driver:D0408": {
+    "trip_count": 21,
+    "total_distance": 50.95999997854233,
+    "total_revenue": 331.01999950408936,
+    "avg_duration": 11.715714272998628,
+    "driver_id": "D0408"
+  },
+  "driver:D0103": {
+    "trip_count": 29,
+    "total_distance": 72.20000004768372,
+    "total_revenue": 432.1999988555908,
+    "avg_duration": 12.173793069247541,
+    "driver_id": "D0103"
+  },
+  "driver:D0045": {
+    "trip_count": 31,
+    "total_distance": 75.78999996185303,
+    "total_revenue": 454.8700017929077,
+    "avg_duration": 11.690645125604444,
+    "driver_id": "D0045"
+  },
+  "driver:D0167": {
+    "trip_count": 23,
+    "total_distance": 57.49000024795532,
+    "total_revenue": 354.95999813079834,
+    "avg_duration": 11.28652164210444,
+    "driver_id": "D0167"
+  },
+  "driver:D0085": {
+    "trip_count": 24,
+    "total_distance": 65.28000032901764,
+    "total_revenue": 376.17000102996826,
+    "avg_duration": 12.567083378632864,
+    "driver_id": "D0085"
+  },
+  "driver:D0377": {
+    "trip_count": 20,
+    "total_distance": 55.730000019073486,
+    "total_revenue": 358.89999771118164,
+    "avg_duration": 13.578500032424927,
+    "driver_id": "D0377"
+  },
+  "driver:D0460": {
+    "trip_count": 25,
+    "total_distance": 66.55000019073486,
+    "total_revenue": 391.560001373291,
+    "avg_duration": 11.821999988555909,
+    "driver_id": "D0460"
+  },
+  "driver:D0200": {
+    "trip_count": 23,
+    "total_distance": 57.670000314712524,
+    "total_revenue": 364.44999980926514,
+    "avg_duration": 11.703043502310049,
+    "driver_id": "D0200"
+  },
+  "driver:D0407": {
+    "trip_count": 13,
+    "total_distance": 28.8499995470047,
+    "total_revenue": 178.17999935150146,
+    "avg_duration": 10.246153813142042,
+    "driver_id": "D0407"
+  },
+  "driver:D0322": {
+    "trip_count": 20,
+    "total_distance": 49.040000319480896,
+    "total_revenue": 292.9399995803833,
+    "avg_duration": 11.449499917030334,
+    "driver_id": "D0322"
+  },
+  "driver:D0447": {
+    "trip_count": 17,
+    "total_distance": 43.550000071525574,
+    "total_revenue": 257.5099973678589,
+    "avg_duration": 12.313529323129092,
+    "driver_id": "D0447"
+  },
+  "driver:D0195": {
+    "trip_count": 17,
+    "total_distance": 40.54000002145767,
+    "total_revenue": 254.69000053405762,
+    "avg_duration": 10.887647067799287,
+    "driver_id": "D0195"
+  },
+  "driver:D0290": {
+    "trip_count": 21,
+    "total_distance": 54.630000710487366,
+    "total_revenue": 321.90000343322754,
+    "avg_duration": 11.500952470870246,
+    "driver_id": "D0290"
+  },
+  "driver:D0451": {
+    "trip_count": 22,
+    "total_distance": 52.35000032186508,
+    "total_revenue": 333.44000339508057,
+    "avg_duration": 12.142272797497837,
+    "driver_id": "D0451"
+  },
+  "driver:D0349": {
+    "trip_count": 17,
+    "total_distance": 39.35000026226044,
+    "total_revenue": 260.80000019073486,
+    "avg_duration": 12.07117644478293,
+    "driver_id": "D0349"
+  },
+  "driver:D0403": {
+    "trip_count": 17,
+    "total_distance": 48.84999990463257,
+    "total_revenue": 282.92000102996826,
+    "avg_duration": 13.00352924010333,
+    "driver_id": "D0403"
+  },
+  "driver:D0117": {
+    "trip_count": 18,
+    "total_distance": 44.920000433921814,
+    "total_revenue": 273.0000009536743,
+    "avg_duration": 11.514444457160103,
+    "driver_id": "D0117"
+  },
+  "driver:D0454": {
+    "trip_count": 16,
+    "total_distance": 39.989999890327454,
+    "total_revenue": 234.5699987411499,
+    "avg_duration": 10.816875010728836,
+    "driver_id": "D0454"
+  },
+  "driver:D0247": {
+    "trip_count": 22,
+    "total_distance": 52.94000005722046,
+    "total_revenue": 331.48000144958496,
+    "avg_duration": 10.831363677978516,
+    "driver_id": "D0247"
+  },
+  "driver:D0314": {
+    "trip_count": 21,
+    "total_distance": 51.07000017166138,
+    "total_revenue": 310.23000049591064,
+    "avg_duration": 11.720952363241286,
+    "driver_id": "D0314"
+  },
+  "driver:D0273": {
+    "trip_count": 22,
+    "total_distance": 53.39000046253204,
+    "total_revenue": 327.8199996948242,
+    "avg_duration": 10.874999848279087,
+    "driver_id": "D0273"
+  },
+  "driver:D0148": {
+    "trip_count": 22,
+    "total_distance": 56.87000036239624,
+    "total_revenue": 337.32000064849854,
+    "avg_duration": 11.949090827595104,
+    "driver_id": "D0148"
+  },
+  "driver:D0067": {
+    "trip_count": 22,
+    "total_distance": 51.080000042915344,
+    "total_revenue": 321.6300001144409,
+    "avg_duration": 11.463181885805996,
+    "driver_id": "D0067"
+  },
+  "driver:D0297": {
+    "trip_count": 20,
+    "total_distance": 51.260000348091125,
+    "total_revenue": 344.70000076293945,
+    "avg_duration": 13.452000164985657,
+    "driver_id": "D0297"
+  },
+  "driver:D0049": {
+    "trip_count": 22,
+    "total_distance": 55.19999998807907,
+    "total_revenue": 367.4700012207031,
+    "avg_duration": 13.132272633639248,
+    "driver_id": "D0049"
+  },
+  "driver:D0193": {
+    "trip_count": 27,
+    "total_distance": 65.09000021219254,
+    "total_revenue": 396.1500015258789,
+    "avg_duration": 12.202592655464455,
+    "driver_id": "D0193"
+  },
+  "driver:D0159": {
+    "trip_count": 25,
+    "total_distance": 61.11000031232834,
+    "total_revenue": 376.1699981689453,
+    "avg_duration": 11.382000007629392,
+    "driver_id": "D0159"
+  },
+  "driver:D0417": {
+    "trip_count": 23,
+    "total_distance": 58.87999999523163,
+    "total_revenue": 361.5999994277954,
+    "avg_duration": 11.14130449295044,
+    "driver_id": "D0417"
+  },
+  "driver:D0140": {
+    "trip_count": 22,
+    "total_distance": 56.24000060558319,
+    "total_revenue": 353.3100004196167,
+    "avg_duration": 13.253181652589278,
+    "driver_id": "D0140"
+  },
+  "driver:D0274": {
+    "trip_count": 17,
+    "total_distance": 45.019999861717224,
+    "total_revenue": 272.0300006866455,
+    "avg_duration": 12.488235249238855,
+    "driver_id": "D0274"
+  },
+  "driver:D0475": {
+    "trip_count": 21,
+    "total_distance": 47.07000017166138,
+    "total_revenue": 300.05999851226807,
+    "avg_duration": 9.624285777409872,
+    "driver_id": "D0475"
+  },
+  "driver:D0241": {
+    "trip_count": 20,
+    "total_distance": 56.06999969482422,
+    "total_revenue": 314.82999992370605,
+    "avg_duration": 11.65699999332428,
+    "driver_id": "D0241"
+  },
+  "driver:D0449": {
+    "trip_count": 19,
+    "total_distance": 46.489999532699585,
+    "total_revenue": 288.2400007247925,
+    "avg_duration": 10.631578922271729,
+    "driver_id": "D0449"
+  },
+  "driver:D0426": {
+    "trip_count": 18,
+    "total_distance": 49.87000048160553,
+    "total_revenue": 287.25000286102295,
+    "avg_duration": 11.846666733423868,
+    "driver_id": "D0426"
+  },
+  "driver:D0261": {
+    "trip_count": 24,
+    "total_distance": 62.570001006126404,
+    "total_revenue": 366.3800001144409,
+    "avg_duration": 11.21999994913737,
+    "driver_id": "D0261"
+  },
+  "driver:D0127": {
+    "trip_count": 21,
+    "total_distance": 52.69999980926514,
+    "total_revenue": 323.7400016784668,
+    "avg_duration": 12.091904776436943,
+    "driver_id": "D0127"
+  },
+  "driver:D0294": {
+    "trip_count": 22,
+    "total_distance": 59.10000014305115,
+    "total_revenue": 342.20000076293945,
+    "avg_duration": 10.791818141937256,
+    "driver_id": "D0294"
+  },
+  "driver:D0418": {
+    "trip_count": 15,
+    "total_distance": 36.28999984264374,
+    "total_revenue": 226.5499973297119,
+    "avg_duration": 8.7093333085378,
+    "driver_id": "D0418"
+  },
+  "driver:D0390": {
+    "trip_count": 19,
+    "total_distance": 51.109999656677246,
+    "total_revenue": 304.7599983215332,
+    "avg_duration": 12.0678946344476,
+    "driver_id": "D0390"
+  },
+  "driver:D0153": {
+    "trip_count": 22,
+    "total_distance": 63.4300000667572,
+    "total_revenue": 354.3900022506714,
+    "avg_duration": 11.51227284561504,
+    "driver_id": "D0153"
+  },
+  "driver:D0439": {
+    "trip_count": 15,
+    "total_distance": 35.70999991893768,
+    "total_revenue": 226.0099983215332,
+    "avg_duration": 12.195999972025554,
+    "driver_id": "D0439"
+  },
+  "driver:D0411": {
+    "trip_count": 22,
+    "total_distance": 61.44000017642975,
+    "total_revenue": 350.73000144958496,
+    "avg_duration": 10.183636383576827,
+    "driver_id": "D0411"
+  },
+  "driver:D0354": {
+    "trip_count": 16,
+    "total_distance": 36.42999982833862,
+    "total_revenue": 225.5900001525879,
+    "avg_duration": 11.33937492966652,
+    "driver_id": "D0354"
+  },
+  "driver:D0228": {
+    "trip_count": 22,
+    "total_distance": 57.22999995946884,
+    "total_revenue": 367.1700048446655,
+    "avg_duration": 11.701363650235264,
+    "driver_id": "D0228"
+  },
+  "driver:D0164": {
+    "trip_count": 21,
+    "total_distance": 49.770000755786896,
+    "total_revenue": 320.9200029373169,
+    "avg_duration": 12.772857280004592,
+    "driver_id": "D0164"
+  },
+  "driver:D0351": {
+    "trip_count": 18,
+    "total_distance": 47.83999955654144,
+    "total_revenue": 276.17999744415283,
+    "avg_duration": 10.322222153345743,
+    "driver_id": "D0351"
+  },
+  "driver:D0144": {
+    "trip_count": 19,
+    "total_distance": 48.71000009775162,
+    "total_revenue": 336.1500015258789,
+    "avg_duration": 14.035263262296978,
+    "driver_id": "D0144"
+  },
+  "driver:D0484": {
+    "trip_count": 27,
+    "total_distance": 64.87999975681305,
+    "total_revenue": 402.5899991989136,
+    "avg_duration": 12.622963022302699,
+    "driver_id": "D0484"
+  },
+  "driver:D0091": {
+    "trip_count": 25,
+    "total_distance": 58.55000019073486,
+    "total_revenue": 380.18999767303467,
+    "avg_duration": 11.92439998626709,
+    "driver_id": "D0091"
+  },
+  "driver:D0207": {
+    "trip_count": 25,
+    "total_distance": 69.3899998664856,
+    "total_revenue": 413.6000003814697,
+    "avg_duration": 12.206000022888183,
+    "driver_id": "D0207"
+  },
+  "driver:D0406": {
+    "trip_count": 23,
+    "total_distance": 60.669999837875366,
+    "total_revenue": 362.3000011444092,
+    "avg_duration": 12.990869605022928,
+    "driver_id": "D0406"
+  },
+  "driver:D0414": {
+    "trip_count": 20,
+    "total_distance": 53.980000138282776,
+    "total_revenue": 328.7800045013428,
+    "avg_duration": 11.976499915122986,
+    "driver_id": "D0414"
+  },
+  "driver:D0122": {
+    "trip_count": 25,
+    "total_distance": 66.55999958515167,
+    "total_revenue": 399.41999912261963,
+    "avg_duration": 11.455599994659424,
+    "driver_id": "D0122"
+  },
+  "driver:D0078": {
+    "trip_count": 20,
+    "total_distance": 45.489999771118164,
+    "total_revenue": 293.0300006866455,
+    "avg_duration": 11.50699998140335,
+    "driver_id": "D0078"
+  },
+  "driver:D0038": {
+    "trip_count": 18,
+    "total_distance": 50.0999995470047,
+    "total_revenue": 286.4700012207031,
+    "avg_duration": 11.90444435013665,
+    "driver_id": "D0038"
+  },
+  "driver:D0030": {
+    "trip_count": 21,
+    "total_distance": 55.07000029087067,
+    "total_revenue": 342.3299980163574,
+    "avg_duration": 12.545238018035889,
+    "driver_id": "D0030"
+  },
+  "driver:D0427": {
+    "trip_count": 15,
+    "total_distance": 39.950000047683716,
+    "total_revenue": 231.9000005722046,
+    "avg_duration": 12.346000130971273,
+    "driver_id": "D0427"
+  },
+  "driver:D0243": {
+    "trip_count": 25,
+    "total_distance": 59.640000104904175,
+    "total_revenue": 371.2199983596802,
+    "avg_duration": 13.012800006866454,
+    "driver_id": "D0243"
+  },
+  "driver:D0483": {
+    "trip_count": 14,
+    "total_distance": 37.639999866485596,
+    "total_revenue": 213.4099988937378,
+    "avg_duration": 10.891428538731166,
+    "driver_id": "D0483"
+  },
+  "driver:D0459": {
+    "trip_count": 27,
+    "total_distance": 67.88000065088272,
+    "total_revenue": 427.94999980926514,
+    "avg_duration": 12.50814814037747,
+    "driver_id": "D0459"
+  },
+  "driver:D0357": {
+    "trip_count": 25,
+    "total_distance": 64.1899995803833,
+    "total_revenue": 412.01999950408936,
+    "avg_duration": 11.609600048065186,
+    "driver_id": "D0357"
+  },
+  "driver:D0433": {
+    "trip_count": 20,
+    "total_distance": 52.519999861717224,
+    "total_revenue": 321.49999713897705,
+    "avg_duration": 13.299499869346619,
+    "driver_id": "D0433"
+  },
+  "driver:D0458": {
+    "trip_count": 18,
+    "total_distance": 42.85000014305115,
+    "total_revenue": 276.48000049591064,
+    "avg_duration": 12.211666689978706,
+    "driver_id": "D0458"
+  },
+  "driver:D0371": {
+    "trip_count": 24,
+    "total_distance": 64.08999907970428,
+    "total_revenue": 390.88999938964844,
+    "avg_duration": 11.509166677792868,
+    "driver_id": "D0371"
+  },
+  "driver:D0267": {
+    "trip_count": 24,
+    "total_distance": 59.44000005722046,
+    "total_revenue": 365.1599988937378,
+    "avg_duration": 11.428333342075348,
+    "driver_id": "D0267"
+  },
+  "driver:D0235": {
+    "trip_count": 19,
+    "total_distance": 46.140000224113464,
+    "total_revenue": 296.7299995422363,
+    "avg_duration": 12.040000012046413,
+    "driver_id": "D0235"
+  },
+  "driver:D0326": {
+    "trip_count": 19,
+    "total_distance": 45.80000001192093,
+    "total_revenue": 312.98999977111816,
+    "avg_duration": 12.81578947368421,
+    "driver_id": "D0326"
+  },
+  "driver:D0198": {
+    "trip_count": 18,
+    "total_distance": 44.70999991893768,
+    "total_revenue": 295.2199993133545,
+    "avg_duration": 12.547777705722385,
+    "driver_id": "D0198"
+  },
+  "driver:D0376": {
+    "trip_count": 15,
+    "total_distance": 38.83000028133392,
+    "total_revenue": 224.94999885559082,
+    "avg_duration": 11.152666727701822,
+    "driver_id": "D0376"
+  },
+  "driver:D0118": {
+    "trip_count": 21,
+    "total_distance": 59.36000031232834,
+    "total_revenue": 338.8599967956543,
+    "avg_duration": 11.521904695601691,
+    "driver_id": "D0118"
+  },
+  "driver:D0168": {
+    "trip_count": 17,
+    "total_distance": 45.670000076293945,
+    "total_revenue": 261.8299980163574,
+    "avg_duration": 11.708235263824463,
+    "driver_id": "D0168"
+  },
+  "driver:D0485": {
+    "trip_count": 18,
+    "total_distance": 46.53999948501587,
+    "total_revenue": 311.16000175476074,
+    "avg_duration": 11.215000099605984,
+    "driver_id": "D0485"
+  },
+  "driver:D0292": {
+    "trip_count": 27,
+    "total_distance": 74.88999962806702,
+    "total_revenue": 439.4699983596802,
+    "avg_duration": 11.717777799676966,
+    "driver_id": "D0292"
+  },
+  "driver:D0039": {
+    "trip_count": 19,
+    "total_distance": 40.379999816417694,
+    "total_revenue": 280.6500005722046,
+    "avg_duration": 12.207368298580771,
+    "driver_id": "D0039"
+  },
+  "driver:D0278": {
+    "trip_count": 24,
+    "total_distance": 57.10000002384186,
+    "total_revenue": 346.4900007247925,
+    "avg_duration": 10.974166611830393,
+    "driver_id": "D0278"
+  },
+  "driver:D0126": {
+    "trip_count": 17,
+    "total_distance": 45.52000033855438,
+    "total_revenue": 287.3099994659424,
+    "avg_duration": 12.798823454800774,
+    "driver_id": "D0126"
+  },
+  "driver:D0431": {
+    "trip_count": 15,
+    "total_distance": 39.169999957084656,
+    "total_revenue": 224.6599988937378,
+    "avg_duration": 10.720000139872234,
+    "driver_id": "D0431"
+  },
+  "driver:D0110": {
+    "trip_count": 15,
+    "total_distance": 36.99000000953674,
+    "total_revenue": 220.45000076293945,
+    "avg_duration": 10.739333343505859,
+    "driver_id": "D0110"
+  },
+  "driver:D0208": {
+    "trip_count": 21,
+    "total_distance": 56.549999833106995,
+    "total_revenue": 334.9600019454956,
+    "avg_duration": 11.922380946931385,
+    "driver_id": "D0208"
+  },
+  "driver:D0442": {
+    "trip_count": 21,
+    "total_distance": 53.97000074386597,
+    "total_revenue": 338.46000385284424,
+    "avg_duration": 11.95952388218471,
+    "driver_id": "D0442"
+  },
+  "driver:D0332": {
+    "trip_count": 28,
+    "total_distance": 75.01999998092651,
+    "total_revenue": 467.86999893188477,
+    "avg_duration": 12.393571419375283,
+    "driver_id": "D0332"
+  },
+  "driver:D0087": {
+    "trip_count": 29,
+    "total_distance": 72.93000018596649,
+    "total_revenue": 443.23000144958496,
+    "avg_duration": 11.370000017100367,
+    "driver_id": "D0087"
+  },
+  "driver:D0013": {
+    "trip_count": 20,
+    "total_distance": 44.3499995470047,
+    "total_revenue": 307.6800003051758,
+    "avg_duration": 12.114499950408936,
+    "driver_id": "D0013"
+  },
+  "driver:D0341": {
+    "trip_count": 16,
+    "total_distance": 37.22000002861023,
+    "total_revenue": 239.03000259399414,
+    "avg_duration": 13.15625011920929,
+    "driver_id": "D0341"
+  },
+  "driver:D0120": {
+    "trip_count": 22,
+    "total_distance": 52.28000032901764,
+    "total_revenue": 331.709997177124,
+    "avg_duration": 11.661818135868419,
+    "driver_id": "D0120"
+  },
+  "driver:D0368": {
+    "trip_count": 17,
+    "total_distance": 52.06000006198883,
+    "total_revenue": 303.83999729156494,
+    "avg_duration": 11.621764659881592,
+    "driver_id": "D0368"
+  },
+  "driver:D0284": {
+    "trip_count": 13,
+    "total_distance": 28.490000247955322,
+    "total_revenue": 188.92000198364258,
+    "avg_duration": 11.92692312827477,
+    "driver_id": "D0284"
+  },
+  "driver:D0291": {
+    "trip_count": 21,
+    "total_distance": 54.49000000953674,
+    "total_revenue": 339.73000049591064,
+    "avg_duration": 11.990952559879847,
+    "driver_id": "D0291"
+  },
+  "driver:D0058": {
+    "trip_count": 25,
+    "total_distance": 68.91999959945679,
+    "total_revenue": 399.0399980545044,
+    "avg_duration": 11.484799938201904,
+    "driver_id": "D0058"
+  },
+  "driver:D0062": {
+    "trip_count": 10,
+    "total_distance": 24.399999856948853,
+    "total_revenue": 166.39000129699707,
+    "avg_duration": 12.075999975204468,
+    "driver_id": "D0062"
+  },
+  "driver:D0491": {
+    "trip_count": 22,
+    "total_distance": 55.55999970436096,
+    "total_revenue": 335.6500005722046,
+    "avg_duration": 12.689090988852762,
+    "driver_id": "D0491"
+  },
+  "driver:D0404": {
+    "trip_count": 23,
+    "total_distance": 59.43999969959259,
+    "total_revenue": 358.9699993133545,
+    "avg_duration": 11.592608638431715,
+    "driver_id": "D0404"
+  },
+  "driver:D0082": {
+    "trip_count": 24,
+    "total_distance": 51.97000014781952,
+    "total_revenue": 337.51000118255615,
+    "avg_duration": 11.314583351214727,
+    "driver_id": "D0082"
+  },
+  "driver:D0223": {
+    "trip_count": 20,
+    "total_distance": 51.189999997615814,
+    "total_revenue": 310.01000213623047,
+    "avg_duration": 11.343999910354615,
+    "driver_id": "D0223"
+  },
+  "driver:D0150": {
+    "trip_count": 26,
+    "total_distance": 65.09999978542328,
+    "total_revenue": 402.0599994659424,
+    "avg_duration": 11.179615396719713,
+    "driver_id": "D0150"
+  },
+  "driver:D0251": {
+    "trip_count": 14,
+    "total_distance": 34.6599999666214,
+    "total_revenue": 202.42000007629395,
+    "avg_duration": 10.15499997138977,
+    "driver_id": "D0251"
+  },
+  "driver:D0155": {
+    "trip_count": 28,
+    "total_distance": 71.49000012874603,
+    "total_revenue": 429.4200019836426,
+    "avg_duration": 10.953214372907366,
+    "driver_id": "D0155"
+  },
+  "driver:D0395": {
+    "trip_count": 21,
+    "total_distance": 49.44999980926514,
+    "total_revenue": 319.72000217437744,
+    "avg_duration": 13.367619219280424,
+    "driver_id": "D0395"
+  },
+  "driver:D0470": {
+    "trip_count": 23,
+    "total_distance": 64.00000005960464,
+    "total_revenue": 377.03000354766846,
+    "avg_duration": 12.815217412036398,
+    "driver_id": "D0470"
+  },
+  "driver:D0416": {
+    "trip_count": 24,
+    "total_distance": 61.07000023126602,
+    "total_revenue": 369.580002784729,
+    "avg_duration": 11.238333304723104,
+    "driver_id": "D0416"
+  },
+  "driver:D0490": {
+    "trip_count": 13,
+    "total_distance": 35.859999895095825,
+    "total_revenue": 211.83000087738037,
+    "avg_duration": 10.446923109201286,
+    "driver_id": "D0490"
+  },
+  "driver:D0053": {
+    "trip_count": 15,
+    "total_distance": 40.60000014305115,
+    "total_revenue": 239.36999702453613,
+    "avg_duration": 10.174666690826417,
+    "driver_id": "D0053"
+  },
+  "driver:D0263": {
+    "trip_count": 24,
+    "total_distance": 59.429999589920044,
+    "total_revenue": 404.04000091552734,
+    "avg_duration": 13.252083321412405,
+    "driver_id": "D0263"
+  },
+  "driver:D0020": {
+    "trip_count": 22,
+    "total_distance": 64.04999959468842,
+    "total_revenue": 363.0200023651123,
+    "avg_duration": 11.85727282003923,
+    "driver_id": "D0020"
+  },
+  "driver:D0199": {
+    "trip_count": 19,
+    "total_distance": 47.27999985218048,
+    "total_revenue": 300.30000019073486,
+    "avg_duration": 13.997368511400724,
+    "driver_id": "D0199"
+  },
+  "driver:D0298": {
+    "trip_count": 25,
+    "total_distance": 59.51000028848648,
+    "total_revenue": 367.7799987792969,
+    "avg_duration": 11.854399948120117,
+    "driver_id": "D0298"
+  },
+  "driver:D0147": {
+    "trip_count": 17,
+    "total_distance": 43.519999980926514,
+    "total_revenue": 258.14000034332275,
+    "avg_duration": 12.523529529571533,
+    "driver_id": "D0147"
+  },
+  "driver:D0133": {
+    "trip_count": 29,
+    "total_distance": 78.32999974489212,
+    "total_revenue": 487.82000160217285,
+    "avg_duration": 12.955517308465366,
+    "driver_id": "D0133"
+  },
+  "driver:D0202": {
+    "trip_count": 20,
+    "total_distance": 52.11000031232834,
+    "total_revenue": 309.5200033187866,
+    "avg_duration": 12.38550009727478,
+    "driver_id": "D0202"
+  },
+  "driver:D0115": {
+    "trip_count": 17,
+    "total_distance": 40.239999651908875,
+    "total_revenue": 251.33999824523926,
+    "avg_duration": 10.86000004936667,
+    "driver_id": "D0115"
+  },
+  "driver:D0420": {
+    "trip_count": 16,
+    "total_distance": 44.329999685287476,
+    "total_revenue": 266.8300018310547,
+    "avg_duration": 12.193750083446503,
+    "driver_id": "D0420"
+  },
+  "driver:D0310": {
+    "trip_count": 18,
+    "total_distance": 43.64999985694885,
+    "total_revenue": 265.59000301361084,
+    "avg_duration": 12.402222235997518,
+    "driver_id": "D0310"
+  },
+  "driver:D0201": {
+    "trip_count": 14,
+    "total_distance": 38.92999982833862,
+    "total_revenue": 239.79000186920166,
+    "avg_duration": 13.061428615025111,
+    "driver_id": "D0201"
+  },
+  "driver:D0385": {
+    "trip_count": 21,
+    "total_distance": 58.4099999666214,
+    "total_revenue": 342.5300016403198,
+    "avg_duration": 11.199523800895328,
+    "driver_id": "D0385"
+  },
+  "driver:D0361": {
+    "trip_count": 23,
+    "total_distance": 51.23000007867813,
+    "total_revenue": 332.0299987792969,
+    "avg_duration": 11.793478302333666,
+    "driver_id": "D0361"
+  },
+  "driver:D0476": {
+    "trip_count": 27,
+    "total_distance": 76.64000010490417,
+    "total_revenue": 480.8600034713745,
+    "avg_duration": 12.751481533050537,
+    "driver_id": "D0476"
+  },
+  "driver:D0380": {
+    "trip_count": 17,
+    "total_distance": 37.89000004529953,
+    "total_revenue": 242.48999881744385,
+    "avg_duration": 12.241764741785387,
+    "driver_id": "D0380"
+  },
+  "driver:D0296": {
+    "trip_count": 21,
+    "total_distance": 53.920000314712524,
+    "total_revenue": 322.810001373291,
+    "avg_duration": 11.271428437460036,
+    "driver_id": "D0296"
+  },
+  "driver:D0075": {
+    "trip_count": 27,
+    "total_distance": 63.72999978065491,
+    "total_revenue": 439.23999786376953,
+    "avg_duration": 12.646666721061424,
+    "driver_id": "D0075"
+  },
+  "driver:D0347": {
+    "trip_count": 16,
+    "total_distance": 43.77999997138977,
+    "total_revenue": 258.6699981689453,
+    "avg_duration": 11.354999840259552,
+    "driver_id": "D0347"
+  },
+  "driver:D0213": {
+    "trip_count": 14,
+    "total_distance": 33.58999985456467,
+    "total_revenue": 205.60999965667725,
+    "avg_duration": 11.07285715852465,
+    "driver_id": "D0213"
+  },
+  "driver:D0132": {
+    "trip_count": 29,
+    "total_distance": 75.6300003528595,
+    "total_revenue": 494.20999908447266,
+    "avg_duration": 11.361724146481219,
+    "driver_id": "D0132"
+  },
+  "driver:D0398": {
+    "trip_count": 23,
+    "total_distance": 56.18000018596649,
+    "total_revenue": 383.9799976348877,
+    "avg_duration": 12.94956514109736,
+    "driver_id": "D0398"
+  },
+  "driver:D0240": {
+    "trip_count": 22,
+    "total_distance": 61.00000023841858,
+    "total_revenue": 358.94000148773193,
+    "avg_duration": 13.765908978202127,
+    "driver_id": "D0240"
+  },
+  "driver:D0383": {
+    "trip_count": 16,
+    "total_distance": 45.3199999332428,
+    "total_revenue": 260.20000171661377,
+    "avg_duration": 12.771250039339066,
+    "driver_id": "D0383"
+  },
+  "driver:D0423": {
+    "trip_count": 26,
+    "total_distance": 70.09999990463257,
+    "total_revenue": 412.60999965667725,
+    "avg_duration": 11.507692318696241,
+    "driver_id": "D0423"
+  },
+  "driver:D0295": {
+    "trip_count": 17,
+    "total_distance": 42.40999984741211,
+    "total_revenue": 255.5099973678589,
+    "avg_duration": 12.72882360570571,
+    "driver_id": "D0295"
+  },
+  "driver:D0111": {
+    "trip_count": 22,
+    "total_distance": 59.59999966621399,
+    "total_revenue": 357.7299976348877,
+    "avg_duration": 11.009090878746726,
+    "driver_id": "D0111"
+  },
+  "driver:D0046": {
+    "trip_count": 21,
+    "total_distance": 53.459999561309814,
+    "total_revenue": 343.5399971008301,
+    "avg_duration": 12.80047615369161,
+    "driver_id": "D0046"
+  },
+  "driver:D0226": {
+    "trip_count": 22,
+    "total_distance": 58.05000066757202,
+    "total_revenue": 358.63000202178955,
+    "avg_duration": 11.627727270126343,
+    "driver_id": "D0226"
+  },
+  "driver:D0336": {
+    "trip_count": 24,
+    "total_distance": 65.20999932289124,
+    "total_revenue": 401.3699998855591,
+    "avg_duration": 11.238333344459534,
+    "driver_id": "D0336"
+  },
+  "driver:D0064": {
+    "trip_count": 23,
+    "total_distance": 58.15999984741211,
+    "total_revenue": 365.4600028991699,
+    "avg_duration": 12.698695473048998,
+    "driver_id": "D0064"
+  },
+  "driver:D0456": {
+    "trip_count": 20,
+    "total_distance": 46.58000040054321,
+    "total_revenue": 297.51000213623047,
+    "avg_duration": 12.743499851226808,
+    "driver_id": "D0456"
+  },
+  "driver:D0402": {
+    "trip_count": 17,
+    "total_distance": 41.7799996137619,
+    "total_revenue": 262.4000015258789,
+    "avg_duration": 11.801176576053395,
+    "driver_id": "D0402"
+  },
+  "driver:D0034": {
+    "trip_count": 18,
+    "total_distance": 41.62000000476837,
+    "total_revenue": 261.42999839782715,
+    "avg_duration": 10.853333393732706,
+    "driver_id": "D0034"
+  },
+  "driver:D0286": {
+    "trip_count": 26,
+    "total_distance": 67.32000017166138,
+    "total_revenue": 400.6099977493286,
+    "avg_duration": 11.962307801613441,
+    "driver_id": "D0286"
+  },
+  "driver:D0180": {
+    "trip_count": 25,
+    "total_distance": 63.389999747276306,
+    "total_revenue": 401.3199987411499,
+    "avg_duration": 12.786000080108643,
+    "driver_id": "D0180"
+  },
+  "driver:D0321": {
+    "trip_count": 20,
+    "total_distance": 44.55000001192093,
+    "total_revenue": 279.86999893188477,
+    "avg_duration": 10.948500037193298,
+    "driver_id": "D0321"
+  },
+  "driver:D0473": {
+    "trip_count": 22,
+    "total_distance": 48.329999923706055,
+    "total_revenue": 317.6500015258789,
+    "avg_duration": 13.70636359128085,
+    "driver_id": "D0473"
+  },
+  "driver:D0255": {
+    "trip_count": 24,
+    "total_distance": 54.00000011920929,
+    "total_revenue": 353.0999994277954,
+    "avg_duration": 11.881666640440622,
+    "driver_id": "D0255"
+  },
+  "driver:D0246": {
+    "trip_count": 22,
+    "total_distance": 57.80999994277954,
+    "total_revenue": 355.85000228881836,
+    "avg_duration": 12.36863643472845,
+    "driver_id": "D0246"
+  },
+  "driver:D0113": {
+    "trip_count": 17,
+    "total_distance": 37.379999935626984,
+    "total_revenue": 270.42999935150146,
+    "avg_duration": 11.192353024202234,
+    "driver_id": "D0113"
+  },
+  "driver:D0224": {
+    "trip_count": 20,
+    "total_distance": 46.88999956846237,
+    "total_revenue": 313.38000106811523,
+    "avg_duration": 12.638999938964844,
+    "driver_id": "D0224"
+  },
+  "driver:D0012": {
+    "trip_count": 18,
+    "total_distance": 41.83999979496002,
+    "total_revenue": 264.39000034332275,
+    "avg_duration": 11.223333332273695,
+    "driver_id": "D0012"
+  },
+  "driver:D0358": {
+    "trip_count": 20,
+    "total_distance": 51.00000011920929,
+    "total_revenue": 305.11000061035156,
+    "avg_duration": 13.022500014305114,
+    "driver_id": "D0358"
+  },
+  "driver:D0272": {
+    "trip_count": 22,
+    "total_distance": 55.15000009536743,
+    "total_revenue": 332.23999977111816,
+    "avg_duration": 12.319090973247182,
+    "driver_id": "D0272"
+  },
+  "driver:D0288": {
+    "trip_count": 21,
+    "total_distance": 51.31999999284744,
+    "total_revenue": 308.1000003814697,
+    "avg_duration": 11.701904955364409,
+    "driver_id": "D0288"
+  },
+  "driver:D0384": {
+    "trip_count": 24,
+    "total_distance": 58.80000054836273,
+    "total_revenue": 372.8899974822998,
+    "avg_duration": 12.60583327213923,
+    "driver_id": "D0384"
+  },
+  "driver:D0467": {
+    "trip_count": 17,
+    "total_distance": 48.15999972820282,
+    "total_revenue": 290.42000007629395,
+    "avg_duration": 11.89588231198928,
+    "driver_id": "D0467"
+  },
+  "driver:D0350": {
+    "trip_count": 22,
+    "total_distance": 60.53000009059906,
+    "total_revenue": 366.4100008010864,
+    "avg_duration": 11.039091023531826,
+    "driver_id": "D0350"
+  },
+  "driver:D0079": {
+    "trip_count": 28,
+    "total_distance": 65.83999979496002,
+    "total_revenue": 439.91000270843506,
+    "avg_duration": 12.118571366582598,
+    "driver_id": "D0079"
+  },
+  "driver:D0334": {
+    "trip_count": 16,
+    "total_distance": 45.6599999666214,
+    "total_revenue": 254.70999717712402,
+    "avg_duration": 11.794374912977219,
+    "driver_id": "D0334"
+  },
+  "driver:D0468": {
+    "trip_count": 26,
+    "total_distance": 70.2900003194809,
+    "total_revenue": 433.6000003814697,
+    "avg_duration": 12.158461534059965,
+    "driver_id": "D0468"
+  },
+  "driver:D0054": {
+    "trip_count": 18,
+    "total_distance": 42.639999747276306,
+    "total_revenue": 264.939998626709,
+    "avg_duration": 13.061111211776733,
+    "driver_id": "D0054"
+  },
+  "driver:D0317": {
+    "trip_count": 13,
+    "total_distance": 32.8699996471405,
+    "total_revenue": 198.92000102996826,
+    "avg_duration": 13.583846165583683,
+    "driver_id": "D0317"
+  },
+  "driver:D0397": {
+    "trip_count": 13,
+    "total_distance": 27.58000010251999,
+    "total_revenue": 187.57000255584717,
+    "avg_duration": 11.555384562565731,
+    "driver_id": "D0397"
+  },
+  "driver:D0270": {
+    "trip_count": 17,
+    "total_distance": 40.53999978303909,
+    "total_revenue": 248.72999954223633,
+    "avg_duration": 12.382352885077982,
+    "driver_id": "D0270"
+  },
+  "driver:D0355": {
+    "trip_count": 23,
+    "total_distance": 53.91999977827072,
+    "total_revenue": 334.39000034332275,
+    "avg_duration": 12.16086955692457,
+    "driver_id": "D0355"
+  },
+  "driver:D0239": {
+    "trip_count": 21,
+    "total_distance": 56.640000224113464,
+    "total_revenue": 337.8699998855591,
+    "avg_duration": 11.572857175554548,
+    "driver_id": "D0239"
+  },
+  "driver:D0338": {
+    "trip_count": 19,
+    "total_distance": 48.50999963283539,
+    "total_revenue": 292.48000049591064,
+    "avg_duration": 12.949999909651908,
+    "driver_id": "D0338"
+  },
+  "driver:D0170": {
+    "trip_count": 18,
+    "total_distance": 48.49999988079071,
+    "total_revenue": 288.26000022888184,
+    "avg_duration": 12.3555555873447,
+    "driver_id": "D0170"
+  },
+  "driver:D0387": {
+    "trip_count": 23,
+    "total_distance": 62.06000006198883,
+    "total_revenue": 354.97000312805176,
+    "avg_duration": 11.690434891244639,
+    "driver_id": "D0387"
+  },
+  "driver:D0474": {
+    "trip_count": 18,
+    "total_distance": 43.38999992609024,
+    "total_revenue": 270.1199998855591,
+    "avg_duration": 13.229999992582533,
+    "driver_id": "D0474"
+  },
+  "driver:D0217": {
+    "trip_count": 14,
+    "total_distance": 38.0900000333786,
+    "total_revenue": 235.30000114440918,
+    "avg_duration": 12.620714391980853,
+    "driver_id": "D0217"
+  },
+  "driver:D0157": {
+    "trip_count": 22,
+    "total_distance": 58.889999866485596,
+    "total_revenue": 380.82000160217285,
+    "avg_duration": 12.383181810379028,
+    "driver_id": "D0157"
+  },
+  "driver:D0184": {
+    "trip_count": 19,
+    "total_distance": 42.25000011920929,
+    "total_revenue": 284.95000076293945,
+    "avg_duration": 11.320526323820415,
+    "driver_id": "D0184"
+  },
+  "driver:D0052": {
+    "trip_count": 26,
+    "total_distance": 66.0400003194809,
+    "total_revenue": 392.9099998474121,
+    "avg_duration": 10.691923132309547,
+    "driver_id": "D0052"
+  },
+  "driver:D0275": {
+    "trip_count": 22,
+    "total_distance": 54.549999833106995,
+    "total_revenue": 347.8699960708618,
+    "avg_duration": 11.356363686648281,
+    "driver_id": "D0275"
+  },
+  "driver:D0149": {
+    "trip_count": 27,
+    "total_distance": 69.17000007629395,
+    "total_revenue": 437.6500024795532,
+    "avg_duration": 11.478888900191695,
+    "driver_id": "D0149"
+  },
+  "driver:D0327": {
+    "trip_count": 23,
+    "total_distance": 57.14999997615814,
+    "total_revenue": 367.3799991607666,
+    "avg_duration": 12.566956540812617,
+    "driver_id": "D0327"
+  },
+  "driver:D0019": {
+    "trip_count": 19,
+    "total_distance": 53.679999589920044,
+    "total_revenue": 312.7700004577637,
+    "avg_duration": 11.121052465940776,
+    "driver_id": "D0019"
+  },
+  "driver:D0307": {
+    "trip_count": 22,
+    "total_distance": 53.95999962091446,
+    "total_revenue": 345.10999965667725,
+    "avg_duration": 11.534999804063277,
+    "driver_id": "D0307"
+  },
+  "driver:D0256": {
+    "trip_count": 25,
+    "total_distance": 64.57000029087067,
+    "total_revenue": 379.54000091552734,
+    "avg_duration": 12.165600109100343,
+    "driver_id": "D0256"
+  },
+  "driver:D0212": {
+    "trip_count": 21,
+    "total_distance": 55.84000039100647,
+    "total_revenue": 348.51999950408936,
+    "avg_duration": 10.684285663423085,
+    "driver_id": "D0212"
+  },
+  "driver:D0081": {
+    "trip_count": 23,
+    "total_distance": 57.78000009059906,
+    "total_revenue": 368.8400001525879,
+    "avg_duration": 12.486956565276436,
+    "driver_id": "D0081"
+  },
+  "driver:D0346": {
+    "trip_count": 18,
+    "total_distance": 49.639999985694885,
+    "total_revenue": 307.7800006866455,
+    "avg_duration": 10.958333386315239,
+    "driver_id": "D0346"
+  },
+  "driver:D0009": {
+    "trip_count": 23,
+    "total_distance": 53.47999978065491,
+    "total_revenue": 364.1999988555908,
+    "avg_duration": 11.065217412036398,
+    "driver_id": "D0009"
+  },
+  "driver:D0443": {
+    "trip_count": 31,
+    "total_distance": 75.62000054121017,
+    "total_revenue": 486.460000038147,
+    "avg_duration": 13.033870927749142,
+    "driver_id": "D0443"
+  },
+  "driver:D0232": {
+    "trip_count": 24,
+    "total_distance": 64.74999988079071,
+    "total_revenue": 388.710000038147,
+    "avg_duration": 13.8112500111262,
+    "driver_id": "D0232"
+  },
+  "driver:D0339": {
+    "trip_count": 23,
+    "total_distance": 53.81000006198883,
+    "total_revenue": 334.3199996948242,
+    "avg_duration": 11.38130431589873,
+    "driver_id": "D0339"
+  },
+  "driver:D0203": {
+    "trip_count": 20,
+    "total_distance": 55.34000015258789,
+    "total_revenue": 326.76000022888184,
+    "avg_duration": 12.47099997997284,
+    "driver_id": "D0203"
+  },
+  "driver:D0382": {
+    "trip_count": 22,
+    "total_distance": 53.20000022649765,
+    "total_revenue": 348.3999996185303,
+    "avg_duration": 12.408181797374379,
+    "driver_id": "D0382"
+  },
+  "driver:D0230": {
+    "trip_count": 25,
+    "total_distance": 61.300000071525574,
+    "total_revenue": 385.1800003051758,
+    "avg_duration": 11.69919994354248,
+    "driver_id": "D0230"
+  },
+  "driver:D0344": {
+    "trip_count": 23,
+    "total_distance": 56.810000121593475,
+    "total_revenue": 372.1899995803833,
+    "avg_duration": 12.438260783319889,
+    "driver_id": "D0344"
+  },
+  "driver:D0495": {
+    "trip_count": 11,
+    "total_distance": 27.019999980926514,
+    "total_revenue": 177.46000003814697,
+    "avg_duration": 13.390909281643955,
+    "driver_id": "D0495"
+  },
+  "driver:D0373": {
+    "trip_count": 21,
+    "total_distance": 63.81999969482422,
+    "total_revenue": 352.0499973297119,
+    "avg_duration": 12.45714282989502,
+    "driver_id": "D0373"
+  },
+  "driver:D0068": {
+    "trip_count": 32,
+    "total_distance": 78.01999986171722,
+    "total_revenue": 495.47000312805176,
+    "avg_duration": 10.80968751013279,
+    "driver_id": "D0068"
+  },
+  "driver:D0101": {
+    "trip_count": 17,
+    "total_distance": 42.209999799728394,
+    "total_revenue": 284.48999977111816,
+    "avg_duration": 14.018235430997962,
+    "driver_id": "D0101"
+  },
+  "driver:D0143": {
+    "trip_count": 21,
+    "total_distance": 56.89999973773956,
+    "total_revenue": 366.9599962234497,
+    "avg_duration": 12.759999979109992,
+    "driver_id": "D0143"
+  },
+  "driver:D0289": {
+    "trip_count": 23,
+    "total_distance": 51.16000032424927,
+    "total_revenue": 337.30999851226807,
+    "avg_duration": 11.589565246001534,
+    "driver_id": "D0289"
+  },
+  "driver:D0016": {
+    "trip_count": 26,
+    "total_distance": 69.05999940633774,
+    "total_revenue": 439.08999824523926,
+    "avg_duration": 11.212692279082079,
+    "driver_id": "D0016"
+  },
+  "driver:D0488": {
+    "trip_count": 24,
+    "total_distance": 57.11999976634979,
+    "total_revenue": 354.48999786376953,
+    "avg_duration": 12.466249962647757,
+    "driver_id": "D0488"
+  },
+  "driver:D0158": {
+    "trip_count": 20,
+    "total_distance": 59.24000000953674,
+    "total_revenue": 351.99999713897705,
+    "avg_duration": 12.33649983406067,
+    "driver_id": "D0158"
+  },
+  "driver:D0216": {
+    "trip_count": 23,
+    "total_distance": 55.82000017166138,
+    "total_revenue": 341.63999938964844,
+    "avg_duration": 12.216521719227666,
+    "driver_id": "D0216"
+  },
+  "driver:D0434": {
+    "trip_count": 23,
+    "total_distance": 54.8199999332428,
+    "total_revenue": 337.64999866485596,
+    "avg_duration": 12.645652190498684,
+    "driver_id": "D0434"
+  },
+  "driver:D0280": {
+    "trip_count": 23,
+    "total_distance": 61.630000591278076,
+    "total_revenue": 349.95999908447266,
+    "avg_duration": 10.287391299786774,
+    "driver_id": "D0280"
+  },
+  "driver:D0214": {
+    "trip_count": 19,
+    "total_distance": 49.400000274181366,
+    "total_revenue": 302.64000415802,
+    "avg_duration": 12.871578982001857,
+    "driver_id": "D0214"
+  },
+  "driver:D0486": {
+    "trip_count": 17,
+    "total_distance": 45.109999775886536,
+    "total_revenue": 277.60000228881836,
+    "avg_duration": 13.136470626382266,
+    "driver_id": "D0486"
+  },
+  "driver:D0276": {
+    "trip_count": 19,
+    "total_distance": 45.27000021934509,
+    "total_revenue": 290.7499990463257,
+    "avg_duration": 11.78631571719521,
+    "driver_id": "D0276"
+  },
+  "driver:D0392": {
+    "trip_count": 25,
+    "total_distance": 62.37999999523163,
+    "total_revenue": 377.62000370025635,
+    "avg_duration": 11.518000030517578,
+    "driver_id": "D0392"
+  },
+  "driver:D0463": {
+    "trip_count": 22,
+    "total_distance": 55.730000376701355,
+    "total_revenue": 333.9999990463257,
+    "avg_duration": 12.223181876269253,
+    "driver_id": "D0463"
+  },
+  "driver:D0253": {
+    "trip_count": 23,
+    "total_distance": 58.5200001001358,
+    "total_revenue": 355.94999980926514,
+    "avg_duration": 13.386521878449813,
+    "driver_id": "D0253"
+  },
+  "driver:D0400": {
+    "trip_count": 12,
+    "total_distance": 29.049999833106995,
+    "total_revenue": 175.48999977111816,
+    "avg_duration": 11.810000022252401,
+    "driver_id": "D0400"
+  },
+  "driver:D0237": {
+    "trip_count": 24,
+    "total_distance": 52.62999999523163,
+    "total_revenue": 344.9400005340576,
+    "avg_duration": 11.33041669925054,
+    "driver_id": "D0237"
+  },
+  "driver:D0220": {
+    "trip_count": 27,
+    "total_distance": 68.08999997377396,
+    "total_revenue": 427.7299995422363,
+    "avg_duration": 10.884074105156792,
+    "driver_id": "D0220"
+  },
+  "driver:D0356": {
+    "trip_count": 27,
+    "total_distance": 75.22000074386597,
+    "total_revenue": 420.76999855041504,
+    "avg_duration": 11.130740801493326,
+    "driver_id": "D0356"
+  },
+  "driver:D0192": {
+    "trip_count": 17,
+    "total_distance": 40.85000014305115,
+    "total_revenue": 242.56000232696533,
+    "avg_duration": 10.297647013383752,
+    "driver_id": "D0192"
+  },
+  "driver:D0249": {
+    "trip_count": 19,
+    "total_distance": 51.2299998998642,
+    "total_revenue": 308.74999618530273,
+    "avg_duration": 11.454210557435689,
+    "driver_id": "D0249"
+  },
+  "driver:D0006": {
+    "trip_count": 31,
+    "total_distance": 79.49000024795532,
+    "total_revenue": 467.7500009536743,
+    "avg_duration": 11.978387017403879,
+    "driver_id": "D0006"
+  },
+  "driver:D0244": {
+    "trip_count": 20,
+    "total_distance": 51.19999974966049,
+    "total_revenue": 303.8400011062622,
+    "avg_duration": 10.70900001525879,
+    "driver_id": "D0244"
+  },
+  "driver:D0185": {
+    "trip_count": 26,
+    "total_distance": 65.1100002527237,
+    "total_revenue": 397.3100004196167,
+    "avg_duration": 12.01807689666748,
+    "driver_id": "D0185"
+  },
+  "driver:D0196": {
+    "trip_count": 17,
+    "total_distance": 44.699999928474426,
+    "total_revenue": 284.8699998855591,
+    "avg_duration": 12.547647139605354,
+    "driver_id": "D0196"
+  },
+  "driver:D0031": {
+    "trip_count": 22,
+    "total_distance": 56.84999942779541,
+    "total_revenue": 329.97000217437744,
+    "avg_duration": 11.230454618280584,
+    "driver_id": "D0031"
+  },
+  "driver:D0172": {
+    "trip_count": 23,
+    "total_distance": 58.80999994277954,
+    "total_revenue": 360.7100009918213,
+    "avg_duration": 12.135652210401451,
+    "driver_id": "D0172"
+  },
+  "driver:D0176": {
+    "trip_count": 13,
+    "total_distance": 33.85000002384186,
+    "total_revenue": 199.73999977111816,
+    "avg_duration": 12.75461538021381,
+    "driver_id": "D0176"
+  },
+  "driver:D0254": {
+    "trip_count": 20,
+    "total_distance": 46.39000016450882,
+    "total_revenue": 299.27999782562256,
+    "avg_duration": 11.888499975204468,
+    "driver_id": "D0254"
+  },
+  "driver:D0499": {
+    "trip_count": 19,
+    "total_distance": 49.19999969005585,
+    "total_revenue": 309.5399971008301,
+    "avg_duration": 12.237894886418394,
+    "driver_id": "D0499"
+  },
+  "driver:D0331": {
+    "trip_count": 17,
+    "total_distance": 43.02000033855438,
+    "total_revenue": 256.46999645233154,
+    "avg_duration": 12.465882245232077,
+    "driver_id": "D0331"
+  },
+  "driver:D0024": {
+    "trip_count": 19,
+    "total_distance": 50.30999964475632,
+    "total_revenue": 318.11000061035156,
+    "avg_duration": 12.281578892155698,
+    "driver_id": "D0024"
+  },
+  "driver:D0190": {
+    "trip_count": 24,
+    "total_distance": 60.61000019311905,
+    "total_revenue": 391.2000045776367,
+    "avg_duration": 11.064583341280619,
+    "driver_id": "D0190"
+  },
+  "driver:D0181": {
+    "trip_count": 21,
+    "total_distance": 57.39000028371811,
+    "total_revenue": 328.83999824523926,
+    "avg_duration": 10.771428516932897,
+    "driver_id": "D0181"
+  },
+  "driver:D0285": {
+    "trip_count": 22,
+    "total_distance": 55.4199994802475,
+    "total_revenue": 344.9300012588501,
+    "avg_duration": 12.024999954483725,
+    "driver_id": "D0285"
+  },
+  "driver:D0429": {
+    "trip_count": 21,
+    "total_distance": 54.27999973297119,
+    "total_revenue": 323.7199983596802,
+    "avg_duration": 13.301904655638195,
+    "driver_id": "D0429"
+  },
+  "driver:D0025": {
+    "trip_count": 28,
+    "total_distance": 64.92000007629395,
+    "total_revenue": 429.51000118255615,
+    "avg_duration": 12.813214370182582,
+    "driver_id": "D0025"
+  },
+  "driver:D0342": {
+    "trip_count": 25,
+    "total_distance": 63.03000020980835,
+    "total_revenue": 395.4700002670288,
+    "avg_duration": 12.59600009918213,
+    "driver_id": "D0342"
+  },
+  "driver:D0136": {
+    "trip_count": 21,
+    "total_distance": 56.34999990463257,
+    "total_revenue": 363.9700050354004,
+    "avg_duration": 12.921428544180733,
+    "driver_id": "D0136"
+  },
+  "driver:D0089": {
+    "trip_count": 20,
+    "total_distance": 51.09000062942505,
+    "total_revenue": 306.0099992752075,
+    "avg_duration": 10.898500013351441,
+    "driver_id": "D0089"
+  },
+  "driver:D0005": {
+    "trip_count": 21,
+    "total_distance": 55.83999979496002,
+    "total_revenue": 345.03000259399414,
+    "avg_duration": 11.019523756844658,
+    "driver_id": "D0005"
+  },
+  "driver:D0139": {
+    "trip_count": 21,
+    "total_distance": 46.6499999165535,
+    "total_revenue": 301.1999979019165,
+    "avg_duration": 11.374761876605806,
+    "driver_id": "D0139"
+  },
+  "driver:D0086": {
+    "trip_count": 19,
+    "total_distance": 48.9799998998642,
+    "total_revenue": 303.8899974822998,
+    "avg_duration": 12.148947414598966,
+    "driver_id": "D0086"
+  },
+  "driver:D0090": {
+    "trip_count": 17,
+    "total_distance": 38.370000541210175,
+    "total_revenue": 243.8100004196167,
+    "avg_duration": 12.848823491264792,
+    "driver_id": "D0090"
+  },
+  "driver:D0001": {
+    "trip_count": 27,
+    "total_distance": 74.17000019550323,
+    "total_revenue": 450.6400032043457,
+    "avg_duration": 13.355925860228362,
+    "driver_id": "D0001"
+  },
+  "driver:D0277": {
+    "trip_count": 16,
+    "total_distance": 42.53000009059906,
+    "total_revenue": 252.13999938964844,
+    "avg_duration": 10.628749877214432,
+    "driver_id": "D0277"
+  },
+  "driver:D0306": {
+    "trip_count": 31,
+    "total_distance": 73.44999992847443,
+    "total_revenue": 452.61999893188477,
+    "avg_duration": 12.040645184055451,
+    "driver_id": "D0306"
+  },
+  "driver:D0098": {
+    "trip_count": 18,
+    "total_distance": 44.75000011920929,
+    "total_revenue": 282.4300022125244,
+    "avg_duration": 12.116111252042982,
+    "driver_id": "D0098"
+  },
+  "driver:D0225": {
+    "trip_count": 27,
+    "total_distance": 65.75999969244003,
+    "total_revenue": 413.6100034713745,
+    "avg_duration": 10.844444416187427,
+    "driver_id": "D0225"
+  },
+  "driver:D0169": {
+    "trip_count": 21,
+    "total_distance": 57.450000047683716,
+    "total_revenue": 330.8399953842163,
+    "avg_duration": 10.791428588685536,
+    "driver_id": "D0169"
+  },
+  "driver:D0500": {
+    "trip_count": 29,
+    "total_distance": 73.70999908447266,
+    "total_revenue": 470.4900016784668,
+    "avg_duration": 12.53482747900075,
+    "driver_id": "D0500"
+  },
+  "driver:D0471": {
+    "trip_count": 20,
+    "total_distance": 52.650000154972076,
+    "total_revenue": 304.17000007629395,
+    "avg_duration": 10.663999998569489,
+    "driver_id": "D0471"
+  },
+  "driver:D0421": {
+    "trip_count": 17,
+    "total_distance": 40.94000005722046,
+    "total_revenue": 257.10999965667725,
+    "avg_duration": 12.107058721430162,
+    "driver_id": "D0421"
+  },
+  "driver:D0252": {
+    "trip_count": 20,
+    "total_distance": 55.0200001001358,
+    "total_revenue": 351.8400001525879,
+    "avg_duration": 12.255000019073487,
+    "driver_id": "D0252"
+  },
+  "driver:D0197": {
+    "trip_count": 27,
+    "total_distance": 79.41999930143356,
+    "total_revenue": 492.29999828338623,
+    "avg_duration": 11.746666766979077,
+    "driver_id": "D0197"
+  },
+  "driver:D0343": {
+    "trip_count": 28,
+    "total_distance": 71.27000033855438,
+    "total_revenue": 431.29000091552734,
+    "avg_duration": 11.026428529194423,
+    "driver_id": "D0343"
+  },
+  "driver:D0302": {
+    "trip_count": 23,
+    "total_distance": 53.69999986886978,
+    "total_revenue": 358.0500011444092,
+    "avg_duration": 11.118695694467295,
+    "driver_id": "D0302"
+  },
+  "driver:D0015": {
+    "trip_count": 19,
+    "total_distance": 50.06000006198883,
+    "total_revenue": 292.15999698638916,
+    "avg_duration": 10.621052666714316,
+    "driver_id": "D0015"
+  },
+  "driver:D0393": {
+    "trip_count": 20,
+    "total_distance": 48.669999837875366,
+    "total_revenue": 296.6399974822998,
+    "avg_duration": 11.375500106811524,
+    "driver_id": "D0393"
+  },
+  "driver:D0364": {
+    "trip_count": 20,
+    "total_distance": 57.42999994754791,
+    "total_revenue": 336.5500030517578,
+    "avg_duration": 13.894999957084655,
+    "driver_id": "D0364"
+  },
+  "driver:D0409": {
+    "trip_count": 20,
+    "total_distance": 51.56999957561493,
+    "total_revenue": 334.55999755859375,
+    "avg_duration": 12.706500101089478,
+    "driver_id": "D0409"
+  },
+  "driver:D0399": {
+    "trip_count": 23,
+    "total_distance": 57.31999981403351,
+    "total_revenue": 363.36999702453613,
+    "avg_duration": 12.193478294040846,
+    "driver_id": "D0399"
+  },
+  "driver:D0477": {
+    "trip_count": 22,
+    "total_distance": 51.37999987602234,
+    "total_revenue": 334.9699993133545,
+    "avg_duration": 12.133181940425526,
+    "driver_id": "D0477"
+  },
+  "driver:D0315": {
+    "trip_count": 23,
+    "total_distance": 56.260000109672546,
+    "total_revenue": 372.1000032424927,
+    "avg_duration": 12.080434695534084,
+    "driver_id": "D0315"
+  },
+  "driver:D0299": {
+    "trip_count": 19,
+    "total_distance": 41.47999954223633,
+    "total_revenue": 277.9900007247925,
+    "avg_duration": 12.28052622393558,
+    "driver_id": "D0299"
+  },
+  "driver:D0229": {
+    "trip_count": 17,
+    "total_distance": 41.779999792575836,
+    "total_revenue": 269.7700004577637,
+    "avg_duration": 11.72176469073576,
+    "driver_id": "D0229"
+  },
+  "driver:D0469": {
+    "trip_count": 20,
+    "total_distance": 48.189999759197235,
+    "total_revenue": 294.7199993133545,
+    "avg_duration": 12.54000004529953,
+    "driver_id": "D0469"
+  },
+  "driver:D0194": {
+    "trip_count": 14,
+    "total_distance": 33.890000104904175,
+    "total_revenue": 221.98999977111816,
+    "avg_duration": 12.939999989100865,
+    "driver_id": "D0194"
+  },
+  "driver:D0134": {
+    "trip_count": 21,
+    "total_distance": 50.39999985694885,
+    "total_revenue": 317.7500009536743,
+    "avg_duration": 12.57619047164917,
+    "driver_id": "D0134"
+  },
+  "driver:D0070": {
+    "trip_count": 17,
+    "total_distance": 38.5699999332428,
+    "total_revenue": 254.26999807357788,
+    "avg_duration": 12.320588336271399,
+    "driver_id": "D0070"
+  },
+  "driver:D0042": {
+    "trip_count": 22,
+    "total_distance": 55.14999985694885,
+    "total_revenue": 334.55000019073486,
+    "avg_duration": 10.908636396581477,
+    "driver_id": "D0042"
+  },
+  "driver:D0448": {
+    "trip_count": 15,
+    "total_distance": 42.61999982595444,
+    "total_revenue": 247.11999797821045,
+    "avg_duration": 12.212000020345052,
+    "driver_id": "D0448"
+  },
+  "driver:D0320": {
+    "trip_count": 25,
+    "total_distance": 62.560000002384186,
+    "total_revenue": 383.0699996948242,
+    "avg_duration": 11.106799964904786,
+    "driver_id": "D0320"
+  },
+  "driver:D0264": {
+    "trip_count": 17,
+    "total_distance": 45.570000529289246,
+    "total_revenue": 262.54000186920166,
+    "avg_duration": 11.194705794839297,
+    "driver_id": "D0264"
+  },
+  "driver:D0424": {
+    "trip_count": 16,
+    "total_distance": 41.129999697208405,
+    "total_revenue": 246.5999994277954,
+    "avg_duration": 12.671249866485596,
+    "driver_id": "D0424"
+  },
+  "driver:D0219": {
+    "trip_count": 31,
+    "total_distance": 83.44999980926514,
+    "total_revenue": 495.7799959182739,
+    "avg_duration": 12.047419286543324,
+    "driver_id": "D0219"
+  },
+  "driver:D0330": {
+    "trip_count": 25,
+    "total_distance": 60.05999958515167,
+    "total_revenue": 380.7299976348877,
+    "avg_duration": 11.48560007095337,
+    "driver_id": "D0330"
+  },
+  "driver:D0445": {
+    "trip_count": 26,
+    "total_distance": 67.34000027179718,
+    "total_revenue": 405.9499979019165,
+    "avg_duration": 11.902692428001991,
+    "driver_id": "D0445"
+  },
+  "driver:D0425": {
+    "trip_count": 23,
+    "total_distance": 56.47999948263168,
+    "total_revenue": 356.1600008010864,
+    "avg_duration": 11.253478257552437,
+    "driver_id": "D0425"
+  },
+  "driver:D0405": {
+    "trip_count": 21,
+    "total_distance": 55.62000000476837,
+    "total_revenue": 355.3299980163574,
+    "avg_duration": 11.191904749189105,
+    "driver_id": "D0405"
+  },
+  "driver:D0227": {
+    "trip_count": 24,
+    "total_distance": 61.589999973773956,
+    "total_revenue": 364.92000007629395,
+    "avg_duration": 11.180833339691162,
+    "driver_id": "D0227"
+  },
+  "driver:D0135": {
+    "trip_count": 26,
+    "total_distance": 66.78000056743622,
+    "total_revenue": 407.34000301361084,
+    "avg_duration": 11.137692249738253,
+    "driver_id": "D0135"
+  },
+  "driver:D0457": {
+    "trip_count": 26,
+    "total_distance": 65.00999987125397,
+    "total_revenue": 407.06000423431396,
+    "avg_duration": 11.534230681566092,
+    "driver_id": "D0457"
+  },
+  "driver:D0316": {
+    "trip_count": 22,
+    "total_distance": 47.370000779628754,
+    "total_revenue": 312.4699993133545,
+    "avg_duration": 12.169999935410239,
+    "driver_id": "D0316"
+  },
+  "driver:D0092": {
+    "trip_count": 22,
+    "total_distance": 57.640000104904175,
+    "total_revenue": 350.0899963378906,
+    "avg_duration": 11.247727307406338,
+    "driver_id": "D0092"
+  },
+  "driver:D0481": {
+    "trip_count": 16,
+    "total_distance": 43.769999980926514,
+    "total_revenue": 265.10000228881836,
+    "avg_duration": 10.777499973773956,
+    "driver_id": "D0481"
+  },
+  "driver:D0437": {
+    "trip_count": 17,
+    "total_distance": 47.78999996185303,
+    "total_revenue": 276.8799982070923,
+    "avg_duration": 12.283529421862434,
+    "driver_id": "D0437"
+  },
+  "driver:D0145": {
+    "trip_count": 22,
+    "total_distance": 61.13000011444092,
+    "total_revenue": 354.3099956512451,
+    "avg_duration": 11.704090963710438,
+    "driver_id": "D0145"
+  },
+  "driver:D0374": {
+    "trip_count": 16,
+    "total_distance": 41.080000042915344,
+    "total_revenue": 261.89999771118164,
+    "avg_duration": 11.515625029802322,
+    "driver_id": "D0374"
+  },
+  "driver:D0008": {
+    "trip_count": 26,
+    "total_distance": 72.87000000476837,
+    "total_revenue": 440.45000171661377,
+    "avg_duration": 11.697307623349703,
+    "driver_id": "D0008"
+  },
+  "driver:D0375": {
+    "trip_count": 22,
+    "total_distance": 62.35000014305115,
+    "total_revenue": 373.790002822876,
+    "avg_duration": 12.945000084963711,
+    "driver_id": "D0375"
+  },
+  "driver:D0432": {
+    "trip_count": 22,
+    "total_distance": 55.66000008583069,
+    "total_revenue": 363.5900001525879,
+    "avg_duration": 11.891818219965154,
+    "driver_id": "D0432"
+  },
+  "driver:D0094": {
+    "trip_count": 21,
+    "total_distance": 60.47000014781952,
+    "total_revenue": 356.1500005722046,
+    "avg_duration": 12.373809496561686,
+    "driver_id": "D0094"
+  },
+  "driver:D0236": {
+    "trip_count": 19,
+    "total_distance": 45.81999975442886,
+    "total_revenue": 287.9000024795532,
+    "avg_duration": 12.85947363000167,
+    "driver_id": "D0236"
+  },
+  "driver:D0021": {
+    "trip_count": 14,
+    "total_distance": 36.82000011205673,
+    "total_revenue": 240.76999950408936,
+    "avg_duration": 12.308571372713361,
+    "driver_id": "D0021"
+  },
+  "driver:D0047": {
+    "trip_count": 18,
+    "total_distance": 45.7799996137619,
+    "total_revenue": 286.6199998855591,
+    "avg_duration": 12.488333463668823,
+    "driver_id": "D0047"
+  },
+  "driver:D0369": {
+    "trip_count": 32,
+    "total_distance": 74.60000020265579,
+    "total_revenue": 493.7599983215332,
+    "avg_duration": 11.814999930560589,
+    "driver_id": "D0369"
+  },
+  "driver:D0060": {
+    "trip_count": 11,
+    "total_distance": 24.799999713897705,
+    "total_revenue": 161.81000328063965,
+    "avg_duration": 13.838181647387417,
+    "driver_id": "D0060"
+  },
+  "driver:D0027": {
+    "trip_count": 16,
+    "total_distance": 39.87000048160553,
+    "total_revenue": 243.05999946594238,
+    "avg_duration": 11.827499955892563,
+    "driver_id": "D0027"
+  },
+  "driver:D0151": {
+    "trip_count": 11,
+    "total_distance": 26.010000109672546,
+    "total_revenue": 189.22999668121338,
+    "avg_duration": 13.680000045082785,
+    "driver_id": "D0151"
+  },
+  "driver:D0206": {
+    "trip_count": 15,
+    "total_distance": 38.1300003528595,
+    "total_revenue": 247.55000019073486,
+    "avg_duration": 11.39533322652181,
+    "driver_id": "D0206"
+  },
+  "driver:D0189": {
+    "trip_count": 33,
+    "total_distance": 84.00000095367432,
+    "total_revenue": 521.4400043487549,
+    "avg_duration": 12.609393842292555,
+    "driver_id": "D0189"
+  },
+  "driver:D0029": {
+    "trip_count": 20,
+    "total_distance": 50.3400000333786,
+    "total_revenue": 321.8699998855591,
+    "avg_duration": 13.01399998664856,
+    "driver_id": "D0029"
+  },
+  "driver:D0303": {
+    "trip_count": 16,
+    "total_distance": 41.52000021934509,
+    "total_revenue": 264.3299970626831,
+    "avg_duration": 13.551875084638596,
+    "driver_id": "D0303"
+  },
+  "driver:D0388": {
+    "trip_count": 25,
+    "total_distance": 71.45999944210052,
+    "total_revenue": 408.8499994277954,
+    "avg_duration": 11.122000179290772,
+    "driver_id": "D0388"
+  },
+  "driver:D0262": {
+    "trip_count": 20,
+    "total_distance": 42.77999997138977,
+    "total_revenue": 280.82999897003174,
+    "avg_duration": 12.524999952316284,
+    "driver_id": "D0262"
+  },
+  "driver:D0367": {
+    "trip_count": 19,
+    "total_distance": 48.46000039577484,
+    "total_revenue": 294.3200035095215,
+    "avg_duration": 11.996315767890529,
+    "driver_id": "D0367"
+  },
+  "driver:D0365": {
+    "trip_count": 25,
+    "total_distance": 62.27999949455261,
+    "total_revenue": 375.6000003814697,
+    "avg_duration": 11.489999923706055,
+    "driver_id": "D0365"
+  },
+  "driver:D0353": {
+    "trip_count": 20,
+    "total_distance": 44.92000013589859,
+    "total_revenue": 304.50000381469727,
+    "avg_duration": 11.497000050544738,
+    "driver_id": "D0353"
+  },
+  "driver:D0410": {
+    "trip_count": 24,
+    "total_distance": 61.94999945163727,
+    "total_revenue": 408.229998588562,
+    "avg_duration": 11.73333328962326,
+    "driver_id": "D0410"
+  },
+  "driver:D0333": {
+    "trip_count": 26,
+    "total_distance": 63.87000036239624,
+    "total_revenue": 405.2899990081787,
+    "avg_duration": 12.575769323569078,
+    "driver_id": "D0333"
+  },
+  "driver:D0097": {
+    "trip_count": 20,
+    "total_distance": 46.849999845027924,
+    "total_revenue": 311.7399969100952,
+    "avg_duration": 12.20750013589859,
+    "driver_id": "D0097"
+  },
+  "driver:D0435": {
+    "trip_count": 23,
+    "total_distance": 59.769999861717224,
+    "total_revenue": 352.08999729156494,
+    "avg_duration": 10.731739168581756,
+    "driver_id": "D0435"
+  },
+  "driver:D0489": {
+    "trip_count": 21,
+    "total_distance": 56.66000056266785,
+    "total_revenue": 338.5099992752075,
+    "avg_duration": 11.579047543661934,
+    "driver_id": "D0489"
+  },
+  "driver:D0211": {
+    "trip_count": 20,
+    "total_distance": 49.96999979019165,
+    "total_revenue": 312.33999729156494,
+    "avg_duration": 10.806500005722047,
+    "driver_id": "D0211"
+  },
+  "driver:D0248": {
+    "trip_count": 24,
+    "total_distance": 60.010000348091125,
+    "total_revenue": 388.2299995422363,
+    "avg_duration": 12.775833328564962,
+    "driver_id": "D0248"
+  },
+  "driver:D0492": {
+    "trip_count": 23,
+    "total_distance": 66.52999913692474,
+    "total_revenue": 373.7699966430664,
+    "avg_duration": 12.868260964103367,
+    "driver_id": "D0492"
+  },
+  "driver:D0141": {
+    "trip_count": 19,
+    "total_distance": 50.750000059604645,
+    "total_revenue": 307.85000133514404,
+    "avg_duration": 12.136315734762894,
+    "driver_id": "D0141"
+  },
+  "driver:D0370": {
+    "trip_count": 22,
+    "total_distance": 55.37999999523163,
+    "total_revenue": 362.6199998855591,
+    "avg_duration": 12.784545529972423,
+    "driver_id": "D0370"
+  },
+  "driver:D0166": {
+    "trip_count": 22,
+    "total_distance": 57.47000026702881,
+    "total_revenue": 346.69000339508057,
+    "avg_duration": 11.537272745912725,
+    "driver_id": "D0166"
+  },
+  "driver:D0300": {
+    "trip_count": 23,
+    "total_distance": 62.90000069141388,
+    "total_revenue": 376.4799995422363,
+    "avg_duration": 12.734347882478133,
+    "driver_id": "D0300"
+  },
+  "driver:D0171": {
+    "trip_count": 20,
+    "total_distance": 46.14999985694885,
+    "total_revenue": 306.3199977874756,
+    "avg_duration": 10.85449993610382,
+    "driver_id": "D0171"
+  },
+  "driver:D0116": {
+    "trip_count": 29,
+    "total_distance": 70.06999945640564,
+    "total_revenue": 452.5900001525879,
+    "avg_duration": 11.185172360518884,
+    "driver_id": "D0116"
+  },
+  "driver:D0004": {
+    "trip_count": 19,
+    "total_distance": 47.420000314712524,
+    "total_revenue": 290.47000217437744,
+    "avg_duration": 11.46210537458721,
+    "driver_id": "D0004"
+  },
+  "driver:D0366": {
+    "trip_count": 18,
+    "total_distance": 43.7600000500679,
+    "total_revenue": 297.08999824523926,
+    "avg_duration": 13.067777792612711,
+    "driver_id": "D0366"
+  },
+  "driver:D0096": {
+    "trip_count": 26,
+    "total_distance": 62.46999990940094,
+    "total_revenue": 421.95000076293945,
+    "avg_duration": 12.263846122301542,
+    "driver_id": "D0096"
+  },
+  "driver:D0035": {
+    "trip_count": 22,
+    "total_distance": 59.760000109672546,
+    "total_revenue": 359.13000106811523,
+    "avg_duration": 11.731818188320505,
+    "driver_id": "D0035"
+  },
+  "driver:D0319": {
+    "trip_count": 16,
+    "total_distance": 41.56000018119812,
+    "total_revenue": 241.26000118255615,
+    "avg_duration": 10.631250023841858,
+    "driver_id": "D0319"
+  },
+  "driver:D0335": {
+    "trip_count": 29,
+    "total_distance": 72.28999972343445,
+    "total_revenue": 446.5399980545044,
+    "avg_duration": 12.693103412102008,
+    "driver_id": "D0335"
+  },
+  "driver:D0093": {
+    "trip_count": 23,
+    "total_distance": 52.459999799728394,
+    "total_revenue": 341.6800003051758,
+    "avg_duration": 13.542173924653426,
+    "driver_id": "D0093"
+  },
+  "driver:D0073": {
+    "trip_count": 23,
+    "total_distance": 61.19000029563904,
+    "total_revenue": 362.01000022888184,
+    "avg_duration": 12.356087083401887,
+    "driver_id": "D0073"
+  },
+  "driver:D0391": {
+    "trip_count": 18,
+    "total_distance": 39.45999997854233,
+    "total_revenue": 253.9300012588501,
+    "avg_duration": 11.496111035346985,
+    "driver_id": "D0391"
+  },
+  "driver:D0496": {
+    "trip_count": 20,
+    "total_distance": 45.9700003862381,
+    "total_revenue": 289.9099998474121,
+    "avg_duration": 9.866999959945678,
+    "driver_id": "D0496"
+  },
+  "driver:D0282": {
+    "trip_count": 32,
+    "total_distance": 72.23000013828278,
+    "total_revenue": 489.3199987411499,
+    "avg_duration": 11.405625030398369,
+    "driver_id": "D0282"
+  },
+  "driver:D0340": {
+    "trip_count": 22,
+    "total_distance": 56.24000036716461,
+    "total_revenue": 338.6600008010864,
+    "avg_duration": 11.885909058830954,
+    "driver_id": "D0340"
+  },
+  "driver:D0072": {
+    "trip_count": 30,
+    "total_distance": 80.95999932289124,
+    "total_revenue": 460.8400011062622,
+    "avg_duration": 11.33266676266988,
+    "driver_id": "D0072"
+  },
+  "driver:D0050": {
+    "trip_count": 9,
+    "total_distance": 22.199999928474426,
+    "total_revenue": 132.8599977493286,
+    "avg_duration": 11.808889018164741,
+    "driver_id": "D0050"
+  },
+  "driver:D0011": {
+    "trip_count": 23,
+    "total_distance": 65.98000037670135,
+    "total_revenue": 371.7200012207031,
+    "avg_duration": 12.344782704892365,
+    "driver_id": "D0011"
+  },
+  "driver:D0304": {
+    "trip_count": 29,
+    "total_distance": 72.71999967098236,
+    "total_revenue": 460.2899990081787,
+    "avg_duration": 11.86965508296572,
+    "driver_id": "D0304"
+  },
+  "driver:D0257": {
+    "trip_count": 26,
+    "total_distance": 60.860000252723694,
+    "total_revenue": 378.0699977874756,
+    "avg_duration": 12.005769142737755,
+    "driver_id": "D0257"
+  },
+  "driver:D0446": {
+    "trip_count": 27,
+    "total_distance": 70.39999985694885,
+    "total_revenue": 415.85000228881836,
+    "avg_duration": 12.608888908668801,
+    "driver_id": "D0446"
+  },
+  "driver:D0023": {
+    "trip_count": 20,
+    "total_distance": 47.05000001192093,
+    "total_revenue": 300.2499990463257,
+    "avg_duration": 10.81349993944168,
+    "driver_id": "D0023"
+  },
+  "driver:D0041": {
+    "trip_count": 21,
+    "total_distance": 57.35000026226044,
+    "total_revenue": 336.63999938964844,
+    "avg_duration": 10.249999954586936,
+    "driver_id": "D0041"
+  },
+  "driver:D0179": {
+    "trip_count": 26,
+    "total_distance": 70.84000027179718,
+    "total_revenue": 461.42000007629395,
+    "avg_duration": 11.533076983231764,
+    "driver_id": "D0179"
+  },
+  "driver:D0187": {
+    "trip_count": 19,
+    "total_distance": 43.06000018119812,
+    "total_revenue": 287.1300001144409,
+    "avg_duration": 13.034736959557785,
+    "driver_id": "D0187"
+  },
+  "driver:D0308": {
+    "trip_count": 23,
+    "total_distance": 53.829999923706055,
+    "total_revenue": 341.44999980926514,
+    "avg_duration": 11.86173905497012,
+    "driver_id": "D0308"
+  },
+  "driver:D0055": {
+    "trip_count": 19,
+    "total_distance": 47.08999991416931,
+    "total_revenue": 316.33000087738037,
+    "avg_duration": 13.76421029944169,
+    "driver_id": "D0055"
+  },
+  "driver:D0498": {
+    "trip_count": 24,
+    "total_distance": 58.32999950647354,
+    "total_revenue": 359.3800001144409,
+    "avg_duration": 12.253750105698904,
+    "driver_id": "D0498"
+  },
+  "driver:D0107": {
+    "trip_count": 19,
+    "total_distance": 54.15000033378601,
+    "total_revenue": 303.9300022125244,
+    "avg_duration": 12.234736894306383,
+    "driver_id": "D0107"
+  },
+  "driver:D0084": {
+    "trip_count": 24,
+    "total_distance": 61.18999981880188,
+    "total_revenue": 398.28999423980713,
+    "avg_duration": 11.37624994913737,
+    "driver_id": "D0084"
+  },
+  "driver:D0221": {
+    "trip_count": 11,
+    "total_distance": 29.140000104904175,
+    "total_revenue": 170.47999954223633,
+    "avg_duration": 12.749999913302334,
+    "driver_id": "D0221"
+  },
+  "driver:D0014": {
+    "trip_count": 26,
+    "total_distance": 60.890000104904175,
+    "total_revenue": 384.8400020599365,
+    "avg_duration": 12.369230838922354,
+    "driver_id": "D0014"
+  },
+  "driver:D0186": {
+    "trip_count": 31,
+    "total_distance": 80.8600001335144,
+    "total_revenue": 493.5300006866455,
+    "avg_duration": 11.857741971169748,
+    "driver_id": "D0186"
+  },
+  "driver:D0152": {
+    "trip_count": 25,
+    "total_distance": 56.25999981164932,
+    "total_revenue": 359.4000005722046,
+    "avg_duration": 11.68080015182495,
+    "driver_id": "D0152"
+  },
+  "driver:D0413": {
+    "trip_count": 24,
+    "total_distance": 60.510000109672546,
+    "total_revenue": 372.6100044250488,
+    "avg_duration": 12.370000064373016,
+    "driver_id": "D0413"
+  },
+  "driver:D0452": {
+    "trip_count": 25,
+    "total_distance": 62.87000000476837,
+    "total_revenue": 390.8699998855591,
+    "avg_duration": 10.725200023651123,
+    "driver_id": "D0452"
+  },
+  "driver:D0182": {
+    "trip_count": 28,
+    "total_distance": 63.420000314712524,
+    "total_revenue": 411.23999786376953,
+    "avg_duration": 12.629642844200134,
+    "driver_id": "D0182"
+  },
+  "driver:D0018": {
+    "trip_count": 24,
+    "total_distance": 62.39000004529953,
+    "total_revenue": 384.17999935150146,
+    "avg_duration": 9.691249946753183,
+    "driver_id": "D0018"
+  },
+  "driver:D0128": {
+    "trip_count": 28,
+    "total_distance": 79.40000033378601,
+    "total_revenue": 462.8400001525879,
+    "avg_duration": 12.294642737933568,
+    "driver_id": "D0128"
+  },
+  "driver:D0450": {
+    "trip_count": 30,
+    "total_distance": 80.96000075340271,
+    "total_revenue": 486.32000064849854,
+    "avg_duration": 12.743666656812032,
+    "driver_id": "D0450"
+  },
+  "driver:D0266": {
+    "trip_count": 21,
+    "total_distance": 50.08000028133392,
+    "total_revenue": 314.36000061035156,
+    "avg_duration": 13.508095264434814,
+    "driver_id": "D0266"
+  },
+  "driver:D0017": {
+    "trip_count": 22,
+    "total_distance": 58.37000036239624,
+    "total_revenue": 383.8799991607666,
+    "avg_duration": 12.590909090909092,
+    "driver_id": "D0017"
+  },
+  "driver:D0033": {
+    "trip_count": 21,
+    "total_distance": 57.92999994754791,
+    "total_revenue": 362.1600008010864,
+    "avg_duration": 10.62714281536284,
+    "driver_id": "D0033"
+  },
+  "driver:D0002": {
+    "trip_count": 18,
+    "total_distance": 45.86000072956085,
+    "total_revenue": 291.0899963378906,
+    "avg_duration": 11.61000002755059,
+    "driver_id": "D0002"
+  },
+  "driver:D0360": {
+    "trip_count": 16,
+    "total_distance": 41.920000076293945,
+    "total_revenue": 272.41000175476074,
+    "avg_duration": 14.149375200271606,
+    "driver_id": "D0360"
+  },
+  "driver:D0438": {
+    "trip_count": 23,
+    "total_distance": 50.55000013113022,
+    "total_revenue": 324.4099998474121,
+    "avg_duration": 12.004347821940547,
+    "driver_id": "D0438"
+  },
+  "driver:D0114": {
+    "trip_count": 23,
+    "total_distance": 61.47999954223633,
+    "total_revenue": 362.0399971008301,
+    "avg_duration": 13.0491303568301,
+    "driver_id": "D0114"
+  },
+  "driver:D0268": {
+    "trip_count": 13,
+    "total_distance": 33.83999991416931,
+    "total_revenue": 205.92000102996826,
+    "avg_duration": 12.382307822887714,
+    "driver_id": "D0268"
+  },
+  "driver:D0363": {
+    "trip_count": 22,
+    "total_distance": 55.320000648498535,
+    "total_revenue": 328.10999965667725,
+    "avg_duration": 11.8436363176866,
+    "driver_id": "D0363"
+  },
+  "driver:D0074": {
+    "trip_count": 22,
+    "total_distance": 59.14999985694885,
+    "total_revenue": 346.54000091552734,
+    "avg_duration": 11.938181855461814,
+    "driver_id": "D0074"
+  },
+  "driver:D0069": {
+    "trip_count": 21,
+    "total_distance": 43.78999972343445,
+    "total_revenue": 305.44000148773193,
+    "avg_duration": 12.400476205916632,
+    "driver_id": "D0069"
+  },
+  "driver:D0465": {
+    "trip_count": 19,
+    "total_distance": 49.12999999523163,
+    "total_revenue": 347.20000171661377,
+    "avg_duration": 12.758421044600638,
+    "driver_id": "D0465"
+  },
+  "driver:D0324": {
+    "trip_count": 23,
+    "total_distance": 54.72000014781952,
+    "total_revenue": 340.20000076293945,
+    "avg_duration": 12.716087030327838,
+    "driver_id": "D0324"
+  },
+  "driver:D0056": {
+    "trip_count": 18,
+    "total_distance": 51.35999983549118,
+    "total_revenue": 285.32999992370605,
+    "avg_duration": 10.444444523917305,
+    "driver_id": "D0056"
+  },
+  "driver:D0121": {
+    "trip_count": 21,
+    "total_distance": 50.02999973297119,
+    "total_revenue": 301.57999897003174,
+    "avg_duration": 11.07142854872204,
+    "driver_id": "D0121"
+  },
+  "driver:D0204": {
+    "trip_count": 15,
+    "total_distance": 34.209999799728394,
+    "total_revenue": 248.49000072479248,
+    "avg_duration": 12.2,
+    "driver_id": "D0204"
+  },
+  "driver:D0238": {
+    "trip_count": 21,
+    "total_distance": 55.56999981403351,
+    "total_revenue": 328.3899965286255,
+    "avg_duration": 11.388571398598808,
+    "driver_id": "D0238"
+  },
+  "driver:D0130": {
+    "trip_count": 18,
+    "total_distance": 47.47999966144562,
+    "total_revenue": 272.8399991989136,
+    "avg_duration": 11.223888953526815,
+    "driver_id": "D0130"
+  },
+  "driver:D0205": {
+    "trip_count": 22,
+    "total_distance": 57.39999979734421,
+    "total_revenue": 349.14000034332275,
+    "avg_duration": 11.744545394724065,
+    "driver_id": "D0205"
+  },
+  "driver:D0077": {
+    "trip_count": 24,
+    "total_distance": 59.11000037193298,
+    "total_revenue": 364.32000255584717,
+    "avg_duration": 11.988333304723104,
+    "driver_id": "D0077"
+  },
+  "driver:D0461": {
+    "trip_count": 27,
+    "total_distance": 67.36999940872192,
+    "total_revenue": 463.0600061416626,
+    "avg_duration": 13.002962995458532,
+    "driver_id": "D0461"
+  },
+  "driver:D0462": {
+    "trip_count": 27,
+    "total_distance": 73.02999991178513,
+    "total_revenue": 436.4600028991699,
+    "avg_duration": 10.994444449742636,
+    "driver_id": "D0462"
+  },
+  "driver:D0287": {
+    "trip_count": 21,
+    "total_distance": 46.480000257492065,
+    "total_revenue": 349.2400016784668,
+    "avg_duration": 12.248095217205229,
+    "driver_id": "D0287"
+  },
+  "driver:D0106": {
+    "trip_count": 20,
+    "total_distance": 45.47000014781952,
+    "total_revenue": 304.0699987411499,
+    "avg_duration": 12.519000029563903,
+    "driver_id": "D0106"
+  },
+  "driver:D0022": {
+    "trip_count": 24,
+    "total_distance": 60.40000021457672,
+    "total_revenue": 371.39000129699707,
+    "avg_duration": 11.986666719118753,
+    "driver_id": "D0022"
+  },
+  "driver:D0191": {
+    "trip_count": 33,
+    "total_distance": 84.80000007152557,
+    "total_revenue": 519.8699998855591,
+    "avg_duration": 11.657878803484367,
+    "driver_id": "D0191"
+  },
+  "driver:D0265": {
+    "trip_count": 21,
+    "total_distance": 51.38000047206879,
+    "total_revenue": 302.71999645233154,
+    "avg_duration": 10.376666693460374,
+    "driver_id": "D0265"
+  },
+  "driver:D0415": {
+    "trip_count": 20,
+    "total_distance": 56.53999960422516,
+    "total_revenue": 327.51000022888184,
+    "avg_duration": 10.969500005245209,
+    "driver_id": "D0415"
+  },
+  "driver:D0441": {
+    "trip_count": 20,
+    "total_distance": 54.739999890327454,
+    "total_revenue": 310.8499984741211,
+    "avg_duration": 11.658000063896178,
+    "driver_id": "D0441"
+  },
+  "driver:D0311": {
+    "trip_count": 12,
+    "total_distance": 29.50000035762787,
+    "total_revenue": 187.11999988555908,
+    "avg_duration": 10.860833287239075,
+    "driver_id": "D0311"
+  },
+  "driver:D0455": {
+    "trip_count": 24,
+    "total_distance": 54.449999928474426,
+    "total_revenue": 353.60999870300293,
+    "avg_duration": 11.839999993642172,
+    "driver_id": "D0455"
+  },
+  "driver:D0497": {
+    "trip_count": 24,
+    "total_distance": 59.82000023126602,
+    "total_revenue": 361.169997215271,
+    "avg_duration": 12.850416739781698,
+    "driver_id": "D0497"
+  },
+  "driver:D0210": {
+    "trip_count": 16,
+    "total_distance": 41.3199999332428,
+    "total_revenue": 255.61999893188477,
+    "avg_duration": 13.111249923706055,
+    "driver_id": "D0210"
+  },
+  "driver:D0480": {
+    "trip_count": 23,
+    "total_distance": 61.45999997854233,
+    "total_revenue": 381.35999965667725,
+    "avg_duration": 11.706956552422564,
+    "driver_id": "D0480"
+  },
+  "driver:D0183": {
+    "trip_count": 29,
+    "total_distance": 63.93999946117401,
+    "total_revenue": 401.64000034332275,
+    "avg_duration": 11.175172427604938,
+    "driver_id": "D0183"
+  },
+  "driver:D0494": {
+    "trip_count": 25,
+    "total_distance": 63.279999792575836,
+    "total_revenue": 391.3400020599365,
+    "avg_duration": 12.614799823760986,
+    "driver_id": "D0494"
+  },
+  "driver:D0173": {
+    "trip_count": 26,
+    "total_distance": 62.24999976158142,
+    "total_revenue": 385.4299964904785,
+    "avg_duration": 12.830384593743544,
+    "driver_id": "D0173"
+  },
+  "driver:D0142": {
+    "trip_count": 17,
+    "total_distance": 42.85000014305115,
+    "total_revenue": 275.939998626709,
+    "avg_duration": 11.391176532296573,
+    "driver_id": "D0142"
+  },
+  "driver:D0396": {
+    "trip_count": 21,
+    "total_distance": 52.919999957084656,
+    "total_revenue": 318.87999725341797,
+    "avg_duration": 12.275714261191231,
+    "driver_id": "D0396"
+  },
+  "driver:D0161": {
+    "trip_count": 19,
+    "total_distance": 51.73000067472458,
+    "total_revenue": 310.98000049591064,
+    "avg_duration": 12.444736832066587,
+    "driver_id": "D0161"
+  },
+  "driver:D0059": {
+    "trip_count": 16,
+    "total_distance": 44.85000067949295,
+    "total_revenue": 251.26000022888184,
+    "avg_duration": 11.476250052452087,
+    "driver_id": "D0059"
+  },
+  "driver:D0209": {
+    "trip_count": 20,
+    "total_distance": 52.610000014305115,
+    "total_revenue": 312.67999744415283,
+    "avg_duration": 12.213999974727631,
+    "driver_id": "D0209"
+  },
+  "driver:D0401": {
+    "trip_count": 22,
+    "total_distance": 58.94999969005585,
+    "total_revenue": 337.1199998855591,
+    "avg_duration": 11.424090992320668,
+    "driver_id": "D0401"
+  },
+  "driver:D0083": {
+    "trip_count": 15,
+    "total_distance": 44.510000109672546,
+    "total_revenue": 263.01000118255615,
+    "avg_duration": 12.471333281199138,
+    "driver_id": "D0083"
+  },
+  "driver:D0318": {
+    "trip_count": 23,
+    "total_distance": 56.43000042438507,
+    "total_revenue": 358.91999530792236,
+    "avg_duration": 12.095652041227922,
+    "driver_id": "D0318"
+  },
+  "driver:D0258": {
+    "trip_count": 12,
+    "total_distance": 29.639999747276306,
+    "total_revenue": 182.76999950408936,
+    "avg_duration": 14.110000133514404,
+    "driver_id": "D0258"
+  },
+  "driver:D0065": {
+    "trip_count": 29,
+    "total_distance": 72.88999944925308,
+    "total_revenue": 473.3600034713745,
+    "avg_duration": 12.755172384196314,
+    "driver_id": "D0065"
+  },
+  "driver:D0032": {
+    "trip_count": 20,
+    "total_distance": 58.75,
+    "total_revenue": 349.7200012207031,
+    "avg_duration": 11.737500178813935,
+    "driver_id": "D0032"
+  },
+  "driver:D0146": {
+    "trip_count": 18,
+    "total_distance": 48.06000018119812,
+    "total_revenue": 288.1699981689453,
+    "avg_duration": 11.588333196110195,
+    "driver_id": "D0146"
+  },
+  "driver:D0309": {
+    "trip_count": 13,
+    "total_distance": 32.65999984741211,
+    "total_revenue": 202.05999946594238,
+    "avg_duration": 11.728461632361778,
+    "driver_id": "D0309"
+  },
+  "driver:D0105": {
+    "trip_count": 22,
+    "total_distance": 50.549999475479126,
+    "total_revenue": 324.0199975967407,
+    "avg_duration": 13.36545450037176,
+    "driver_id": "D0105"
+  },
+  "driver:D0165": {
+    "trip_count": 23,
+    "total_distance": 58.650000393390656,
+    "total_revenue": 358.6899995803833,
+    "avg_duration": 13.793043509773586,
+    "driver_id": "D0165"
+  },
+  "driver:D0026": {
+    "trip_count": 30,
+    "total_distance": 76.97000050544739,
+    "total_revenue": 468.1300001144409,
+    "avg_duration": 10.910666624704996,
+    "driver_id": "D0026"
+  },
+  "driver:D0281": {
+    "trip_count": 20,
+    "total_distance": 49.49000036716461,
+    "total_revenue": 314.3499975204468,
+    "avg_duration": 11.667499923706055,
+    "driver_id": "D0281"
+  },
+  "driver:D0080": {
+    "trip_count": 24,
+    "total_distance": 52.63000005483627,
+    "total_revenue": 370.6200017929077,
+    "avg_duration": 13.42208331823349,
+    "driver_id": "D0080"
+  },
+  "driver:D0112": {
+    "trip_count": 15,
+    "total_distance": 40.709999799728394,
+    "total_revenue": 236.71000003814697,
+    "avg_duration": 12.434000047047933,
+    "driver_id": "D0112"
+  },
+  "driver:D0466": {
+    "trip_count": 11,
+    "total_distance": 30.65000009536743,
+    "total_revenue": 179.26999950408936,
+    "avg_duration": 11.0636361729015,
+    "driver_id": "D0466"
+  },
+  "driver:D0260": {
+    "trip_count": 23,
+    "total_distance": 51.42999976873398,
+    "total_revenue": 358.45000076293945,
+    "avg_duration": 12.34956527792889,
+    "driver_id": "D0260"
+  },
+  "driver:D0063": {
+    "trip_count": 28,
+    "total_distance": 73.12999975681305,
+    "total_revenue": 489.28999614715576,
+    "avg_duration": 12.527142831257411,
+    "driver_id": "D0063"
+  },
+  "driver:D0430": {
+    "trip_count": 20,
+    "total_distance": 53.230000257492065,
+    "total_revenue": 333.3700008392334,
+    "avg_duration": 11.977999877929687,
+    "driver_id": "D0430"
+  },
+  "driver:D0123": {
+    "trip_count": 19,
+    "total_distance": 47.950000166893005,
+    "total_revenue": 281.32999992370605,
+    "avg_duration": 10.66210523404573,
+    "driver_id": "D0123"
+  },
+  "driver:D0129": {
+    "trip_count": 19,
+    "total_distance": 48.90000003576279,
+    "total_revenue": 290.94999599456787,
+    "avg_duration": 12.224210550910549,
+    "driver_id": "D0129"
+  },
+  "driver:D0428": {
+    "trip_count": 23,
+    "total_distance": 54.4300000667572,
+    "total_revenue": 337.07000064849854,
+    "avg_duration": 12.77652172420336,
+    "driver_id": "D0428"
+  },
+  "driver:D0218": {
+    "trip_count": 19,
+    "total_distance": 44.71999979019165,
+    "total_revenue": 295.9400005340576,
+    "avg_duration": 10.217368477269224,
+    "driver_id": "D0218"
+  },
+  "driver:D0464": {
+    "trip_count": 18,
+    "total_distance": 40.97999995946884,
+    "total_revenue": 263.30999851226807,
+    "avg_duration": 13.332777818044027,
+    "driver_id": "D0464"
+  },
+  "driver:D0137": {
+    "trip_count": 16,
+    "total_distance": 37.329999804496765,
+    "total_revenue": 249.38999938964844,
+    "avg_duration": 11.16499987244606,
+    "driver_id": "D0137"
+  },
+  "driver:D0188": {
+    "trip_count": 20,
+    "total_distance": 44.50999975204468,
+    "total_revenue": 287.05999755859375,
+    "avg_duration": 10.67200002670288,
+    "driver_id": "D0188"
+  },
+  "driver:D0037": {
+    "trip_count": 21,
+    "total_distance": 50.4399995803833,
+    "total_revenue": 327.1000032424927,
+    "avg_duration": 13.969523884001232,
+    "driver_id": "D0037"
+  },
+  "driver:D0323": {
+    "trip_count": 24,
+    "total_distance": 63.699999928474426,
+    "total_revenue": 387.50999879837036,
+    "avg_duration": 11.922083497047424,
+    "driver_id": "D0323"
+  },
+  "driver:D0487": {
+    "trip_count": 24,
+    "total_distance": 61.839999973773956,
+    "total_revenue": 368.8900022506714,
+    "avg_duration": 11.813333431879679,
+    "driver_id": "D0487"
+  },
+  "driver:D0003": {
+    "trip_count": 17,
+    "total_distance": 35.480000138282776,
+    "total_revenue": 235.89999771118164,
+    "avg_duration": 13.076470487258014,
+    "driver_id": "D0003"
+  },
+  "driver:D0271": {
+    "trip_count": 26,
+    "total_distance": 58.08999979496002,
+    "total_revenue": 374.86999893188477,
+    "avg_duration": 13.131153968664316,
+    "driver_id": "D0271"
+  },
+  "driver:D0108": {
+    "trip_count": 24,
+    "total_distance": 61.700000047683716,
+    "total_revenue": 373.3400001525879,
+    "avg_duration": 13.10583339134852,
+    "driver_id": "D0108"
+  },
+  "driver:D0028": {
+    "trip_count": 15,
+    "total_distance": 38.05000019073486,
+    "total_revenue": 238.3100004196167,
+    "avg_duration": 13.619333330790202,
+    "driver_id": "D0028"
+  },
+  "driver:D0493": {
+    "trip_count": 23,
+    "total_distance": 57.649999499320984,
+    "total_revenue": 360.95000171661377,
+    "avg_duration": 12.281304317971934,
+    "driver_id": "D0493"
+  },
+  "driver:D0175": {
+    "trip_count": 17,
+    "total_distance": 42.19000029563904,
+    "total_revenue": 261.5300016403198,
+    "avg_duration": 10.65470588908476,
+    "driver_id": "D0175"
+  },
+  "driver:D0043": {
+    "trip_count": 25,
+    "total_distance": 61.579999685287476,
+    "total_revenue": 373.84000301361084,
+    "avg_duration": 11.22959997177124,
+    "driver_id": "D0043"
+  },
+  "driver:D0099": {
+    "trip_count": 26,
+    "total_distance": 68.85999989509583,
+    "total_revenue": 411.2800016403198,
+    "avg_duration": 9.995769198124224,
+    "driver_id": "D0099"
+  },
+  "driver:D0325": {
+    "trip_count": 28,
+    "total_distance": 75.61000072956085,
+    "total_revenue": 466.810001373291,
+    "avg_duration": 13.266428453581673,
+    "driver_id": "D0325"
+  },
+  "driver:D0138": {
+    "trip_count": 29,
+    "total_distance": 68.49000054597855,
+    "total_revenue": 436.9800024032593,
+    "avg_duration": 12.733103439725678,
+    "driver_id": "D0138"
+  },
+  "driver:D0379": {
+    "trip_count": 23,
+    "total_distance": 57.670000195503235,
+    "total_revenue": 373.26999950408936,
+    "avg_duration": 12.879130425660506,
+    "driver_id": "D0379"
+  },
+  "driver:D0386": {
+    "trip_count": 20,
+    "total_distance": 54.02000069618225,
+    "total_revenue": 333.7699975967407,
+    "avg_duration": 12.363500022888184,
+    "driver_id": "D0386"
+  },
+  "driver:D0233": {
+    "trip_count": 17,
+    "total_distance": 41.99999988079071,
+    "total_revenue": 262.189998626709,
+    "avg_duration": 12.690000141368193,
+    "driver_id": "D0233"
+  },
+  "driver:D0259": {
+    "trip_count": 18,
+    "total_distance": 45.81000006198883,
+    "total_revenue": 297.58000087738037,
+    "avg_duration": 12.237222141689724,
+    "driver_id": "D0259"
+  },
+  "driver:D0040": {
+    "trip_count": 18,
+    "total_distance": 45.83999991416931,
+    "total_revenue": 279.9300022125244,
+    "avg_duration": 11.291666719648573,
+    "driver_id": "D0040"
+  },
+  "driver:D0156": {
+    "trip_count": 14,
+    "total_distance": 39.66000032424927,
+    "total_revenue": 229.71000003814697,
+    "avg_duration": 14.547857216426305,
+    "driver_id": "D0156"
+  },
+  "driver:D0419": {
+    "trip_count": 21,
+    "total_distance": 50.650000154972076,
+    "total_revenue": 318.3499994277954,
+    "avg_duration": 12.21238102231707,
+    "driver_id": "D0419"
+  },
+  "driver:D0154": {
+    "trip_count": 23,
+    "total_distance": 57.19999969005585,
+    "total_revenue": 350.10999965667725,
+    "avg_duration": 11.356956544129744,
+    "driver_id": "D0154"
+  },
+  "driver:D0305": {
+    "trip_count": 13,
+    "total_distance": 27.90999972820282,
+    "total_revenue": 197.6200008392334,
+    "avg_duration": 12.465384630056528,
+    "driver_id": "D0305"
+  },
+  "driver:D0293": {
+    "trip_count": 26,
+    "total_distance": 61.769999742507935,
+    "total_revenue": 397.20999813079834,
+    "avg_duration": 12.408846176587618,
+    "driver_id": "D0293"
+  },
+  "driver:D0100": {
+    "trip_count": 17,
+    "total_distance": 39.620000302791595,
+    "total_revenue": 239.63000011444092,
+    "avg_duration": 10.517647041993982,
+    "driver_id": "D0100"
+  },
+  "driver:D0478": {
+    "trip_count": 21,
+    "total_distance": 49.32000017166138,
+    "total_revenue": 322.87999534606934,
+    "avg_duration": 12.612857069287982,
+    "driver_id": "D0478"
+  },
+  "driver:D0242": {
+    "trip_count": 18,
+    "total_distance": 44.90999960899353,
+    "total_revenue": 271.960000038147,
+    "avg_duration": 12.218333297305637,
+    "driver_id": "D0242"
+  },
+  "driver:D0124": {
+    "trip_count": 23,
+    "total_distance": 53.1400004029274,
+    "total_revenue": 333.2199983596802,
+    "avg_duration": 9.86478266508683,
+    "driver_id": "D0124"
+  },
+  "driver:D0378": {
+    "trip_count": 20,
+    "total_distance": 49.78000009059906,
+    "total_revenue": 339.37000274658203,
+    "avg_duration": 12.684000074863434,
+    "driver_id": "D0378"
+  },
+  "driver:D0329": {
+    "trip_count": 25,
+    "total_distance": 60.77000045776367,
+    "total_revenue": 372.2899990081787,
+    "avg_duration": 12.001200103759766,
+    "driver_id": "D0329"
+  },
+  "driver:D0312": {
+    "trip_count": 26,
+    "total_distance": 67.74999982118607,
+    "total_revenue": 402.08000087738037,
+    "avg_duration": 12.729230715678288,
+    "driver_id": "D0312"
+  },
+  "driver:D0007": {
+    "trip_count": 26,
+    "total_distance": 64.66000002622604,
+    "total_revenue": 398.32999992370605,
+    "avg_duration": 11.516923097463755,
+    "driver_id": "D0007"
+  },
+  "driver:D0245": {
+    "trip_count": 19,
+    "total_distance": 42.299999952316284,
+    "total_revenue": 281.0800018310547,
+    "avg_duration": 12.389999966872367,
+    "driver_id": "D0245"
+  },
+  "driver:D0125": {
+    "trip_count": 14,
+    "total_distance": 34.88000005483627,
+    "total_revenue": 229.0900011062622,
+    "avg_duration": 12.887857232775007,
+    "driver_id": "D0125"
+  },
+  "driver:D0359": {
+    "trip_count": 25,
+    "total_distance": 69.35000026226044,
+    "total_revenue": 420.1999979019165,
+    "avg_duration": 12.000399932861328,
+    "driver_id": "D0359"
+  },
+  "driver:D0088": {
+    "trip_count": 22,
+    "total_distance": 51.340000212192535,
+    "total_revenue": 354.3499984741211,
+    "avg_duration": 11.646363670175726,
+    "driver_id": "D0088"
+  },
+  "driver:D0104": {
+    "trip_count": 21,
+    "total_distance": 54.62000024318695,
+    "total_revenue": 317.56000232696533,
+    "avg_duration": 10.610000019981747,
+    "driver_id": "D0104"
+  },
+  "driver:D0234": {
+    "trip_count": 22,
+    "total_distance": 58.890000104904175,
+    "total_revenue": 346.3499994277954,
+    "avg_duration": 12.77636369791898,
+    "driver_id": "D0234"
+  },
+  "driver:D0389": {
+    "trip_count": 24,
+    "total_distance": 64.71000039577484,
+    "total_revenue": 368.82000160217285,
+    "avg_duration": 10.778749932845434,
+    "driver_id": "D0389"
+  },
+  "driver:D0479": {
+    "trip_count": 17,
+    "total_distance": 34.09000051021576,
+    "total_revenue": 261.7800016403198,
+    "avg_duration": 12.853529425228343,
+    "driver_id": "D0479"
+  }
+}

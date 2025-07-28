@@ -1,0 +1,16 @@
+[
+  {
+    "vehicle_type": "standard",
+    "trip_count": 8012,
+    "avg_duration": 12.015501749467921,
+    "total_distance": 20240.01001304388,
+    "total_revenue": 125809.61998796463
+  },
+  {
+    "vehicle_type": "premium",
+    "trip_count": 1818,
+    "avg_duration": 11.840880086319675,
+    "total_distance": 4576.989995956421,
+    "total_revenue": 28304.919998168945
+  }
+]

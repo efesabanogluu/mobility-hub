@@ -1,0 +1,125 @@
+version: '3.8'
+
+services:
+  # Coordination service for Kafka
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.2.1
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    networks:
+      - kafka-net  
+
+  # Kafka broker for streaming events between services
+  kafka:
+    image: confluentinc/cp-kafka:7.2.1
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://kafka:29092
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,PLAINTEXT_INTERNAL://0.0.0.0:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT_INTERNAL
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    networks:
+      - kafka-net
+
+  # Redis instance for real-time metric storage
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+    restart: always
+    networks:
+      - kafka-net
+
+  # Flink JobManager for managing stream processing jobs
+  jobmanager:
+    build:
+      context: .
+      dockerfile: Dockerfile.flink
+    container_name: jobmanager
+    command: jobmanager
+    ports:
+      - "8081:8081"  # Flink web UI
+    environment:
+      - JOB_MANAGER_RPC_ADDRESS=jobmanager
+    volumes:
+      - ./flink_jobs:/opt/flink/jobs
+      - ./data:/opt/data
+    networks:
+      - kafka-net
+
+  # Flink TaskManager for executing parallel stream tasks
+  taskmanager:
+    build:
+      context: .
+      dockerfile: Dockerfile.flink
+    container_name: taskmanager
+    depends_on:
+      - jobmanager
+    command: taskmanager
+    environment:
+      - JOB_MANAGER_RPC_ADDRESS=jobmanager
+      - |
+        FLINK_PROPERTIES=
+        taskmanager.numberOfTaskSlots: 32
+        taskmanager.memory.process.size: 2048m    
+    volumes:
+      - ./flink_jobs:/opt/flink/jobs
+      - ./data:/opt/data
+    networks:
+      - kafka-net
+    deploy:
+      resources:
+        limits:
+          cpus: '5'
+          memory: 5120M
+
+  # Lightweight FastAPI server exposing metrics from Redis
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+    networks:
+      - kafka-net
+
+  # PostgreSQL database for persistent storage of aggregated metrics
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: mobility
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - kafka-net
+
+  # Kafka consumer that reads aggregated metrics and writes to Redis + Postgres
+  kafka_consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile.consumer
+    depends_on:
+      - kafka
+      - redis
+      - postgres
+    networks:
+      - kafka-net
+    restart: always
+
+# Shared Docker network for inter-container communication
+networks:
+  kafka-net:
+    driver: bridge

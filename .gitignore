@@ -66,3 +66,4 @@ create_topics.sh.log
 
 # PyCharm / IDE klasörleri
 .idea/
+flink_jobs/__pycache__/helpers.cpython-310.pyc

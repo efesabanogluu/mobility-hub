@@ -4,6 +4,7 @@ services:
   # Coordination service for Kafka
   zookeeper:
     image: confluentinc/cp-zookeeper:7.2.1
+    platform: linux/amd64
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
@@ -15,6 +16,7 @@ services:
   # Kafka broker for streaming events between services
   kafka:
     image: confluentinc/cp-kafka:7.2.1
+    platform: linux/amd64
     depends_on:
       - zookeeper
     ports:
@@ -33,6 +35,7 @@ services:
   # Redis instance for real-time metric storage
   redis:
     image: redis:7
+    platform: linux/amd64
     ports:
       - "6379:6379"
     restart: always
@@ -44,6 +47,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.flink
+    platform: linux/amd64
     container_name: jobmanager
     command: jobmanager
     ports:
@@ -61,6 +65,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.flink
+    platform: linux/amd64
     container_name: taskmanager
     depends_on:
       - jobmanager
@@ -87,6 +92,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.api
+    platform: linux/amd64
     ports:
       - "8000:8000"
     depends_on:
@@ -97,6 +103,7 @@ services:
   # PostgreSQL database for persistent storage of aggregated metrics
   postgres:
     image: postgres:14
+    platform: linux/amd64
     environment:
       POSTGRES_DB: mobility
       POSTGRES_USER: postgres
@@ -111,6 +118,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.consumer
+    platform: linux/amd64
     depends_on:
       - kafka
       - redis

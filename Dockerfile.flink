@@ -1,5 +1,5 @@
 # Force platform for Apple Silicon compatibility
-FROM --platform=linux/amd64 flink:1.17.1
+FROM flink:1.17.1 
 
 # Install required system dependencies:
 RUN apt-get update -y && \

@@ -72,6 +72,10 @@ pip install -r ingestion/requirements.txt
 # 2. Start all services
 docker compose up -d --build
 
+# 🧠 If you are on Apple Silicon (M*) and encounter architecture issues:
+# 👉 Run with platform override to enforce amd64-based containers
+# docker compose --platform=linux/amd64 up -d --build
+
 # 3. Wait for Kafka and Flink to be ready (approx. 30 seconds)
 sleep 30 # Ensures services are up before topic creation
 

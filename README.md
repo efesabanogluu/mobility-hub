@@ -23,13 +23,29 @@ A complete real-time data infrastructure for processing and analyzing ride-haili
 ## 🏗️ Architecture
 
 ```
-trips.parquet
-     │
-     ▼
-  [ Kafka ] ──▶ [ Flink Jobs ] ──▶ [ Redis / Postgres ]
-                                     │
-                                     ▼
-                              Real-time API
+┌──────────────┐      ┌────────────────────────────┐      ┌────────────────────────┐
+│ *.parquet    ├─────▶│ Kafka Topic: trips_stream  ├─────▶│     Flink Jobs         │
+└──────────────┘      └────────────────────────────┘      │  (enrichment + agg)    │
+                                                          └────────────┬───────────┘
+                                                                       │
+                                                                       ▼                                     
+                                                  ┌────────────────────────────────────────┐
+                                                  │ Kafka Topics: enriched.*, aggregated.* │
+                                                  └────────────────────┬───────────────────┘
+                                                                       ▼
+                                                         ┌────────────────────────────┐
+                                                         │  Python Kafka Consumer     │
+                                                         └────────┬───────────┬───────┘
+                                                                  ▼           ▼
+                                                           ┌──────────┐  ┌────────────┐
+                                                           │  Redis   │  │ PostgreSQL │
+                                                           └────┬─────┘  └────────────┘
+                                                                ▼
+                                                         ┌────────────┐
+                                                         │  FastAPI   │
+                                                         └────────────┘
+
+
 ```
 
 ## 🧱 Project Structure
@@ -47,6 +63,15 @@ mobility-hub/
 └── submit_all_jobs.sh        # One-click Flink job submitter
 ```
 
+## 🔄 Kafka Consumer Sink
+
+A standalone Python service (`kafka_consumers/`) listens to `aggregated.*` Kafka topics and writes final metrics to both:
+
+- **Redis** — for real-time, low-latency API access
+- **PostgreSQL** — for persistent storage
+
+This component ensures decoupling between stream processing (Flink) and serving layers (API, BI tools).
+
 ## 🛠️ Technologies Used
 
 - **Apache Kafka** – Streaming backbone
@@ -58,7 +83,7 @@ mobility-hub/
 
 ## 🛡️ Fault Tolerance & Windowing
 
-- Flink jobs use **10-second tumbling windows** for aggregations.
+- Flink jobs use **5-minute tumbling windows** for aggregations.
 - Checkpointing is enabled every 5 minutes to ensure recovery in case of failure.
 
 ## ⚙️ Setup & Run
@@ -72,9 +97,16 @@ pip install -r ingestion/requirements.txt
 # 2. Start all services
 docker compose up -d --build
 
-# 🧠 If you are on Apple Silicon (M*) and encounter architecture issues:
-# 👉 Run with platform override to enforce amd64-based containers
-# docker compose --platform=linux/amd64 up -d --build
+  # 🧠 If you are on Apple Silicon (M*) and encounter architecture issues:
+  # 👉 Run with platform override to enforce amd64-based containers
+    # 👉 If you are using Docker Compose V2 (Recommended):
+    # Use platform override directly with --platform flag
+  docker compose --platform=linux/amd64 up -d --build
+  
+    # 👉 If you are using Docker Compose V1 (Legacy):
+    # --platform flag is NOT supported, so use environment variable instead
+    # Run the following command instead:
+  DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose up -d --build
 
 # 3. Wait for Kafka and Flink to be ready (approx. 30 seconds)
 sleep 30 # Ensures services are up before topic creation
@@ -104,8 +136,25 @@ A helper shell script that creates all required Kafka topics consistently, with 
 - Aggregated metrics are written to:
   - **Redis** for fast, in-memory real-time access
   - **PostgreSQL** for long-term persistent storage (optional)
+  - 
+### 🧠 Metric Upserts & Reconciliation
 
-## 📊 API Access
+The Kafka consumer performs:
+
+- **Weighted average merging** for fields like `avg_duration`
+- **Redis updates** with expiry (`EX 86400`) for in-memory freshness
+- **PostgreSQL upserts** to ensure persistence without duplication, using conflict resolution logic based on primary keys.
+
+## 🌐 Real-Time API (FastAPI)
+
+The `api/redis_api.py` service exposes a lightweight, low-latency API using **FastAPI**. It interacts with **Redis** to serve:
+
+- Entity-level real-time metrics (e.g., `/metrics/driver/<id>`)
+- Key listings for any metric entity (e.g., `/metrics/passenger`)
+
+Ideal for real-time dashboards or analytics integrations.
+
+### 📊 API Access
 
 Once the system is running:
 
